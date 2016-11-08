@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statesml:StateSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:statesml="http://www.big.tuwien.ac.at/statesml" name="CreationToolTestStateSystem">
+  <systemUnit href="../simpleLineFollowing/LineFollowingRobotLibrary.statesml#//@units.0"/>
+</statesml:StateSystem>

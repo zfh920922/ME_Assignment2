@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" name="statesml" version="11.0.0.201601261200">
+  <ownedViewpoints name="StatesML" modelFileExtension="statesml">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="State System Diagram" domainClass="statesml.StateSystem" enablePopupBars="true">
+      <metamodel href="http://www.big.tuwien.ac.at/statesml#/"/>
+      <defaultLayer name="Default"/>
+    </ownedRepresentations>
+  </ownedViewpoints>
+  <userColorsPalettes name="StateML Colors">
+    <entries xsi:type="description:UserFixedColor" red="0" green="102" blue="255" name="statesml_bordercolor"/>
+    <entries xsi:type="description:UserFixedColor" red="235" green="233" blue="217" name="statesml_backgroundcolor"/>
+  </userColorsPalettes>
+</description:Group>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ASCII"?>
+<statesml:StateSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statesml="http://www.big.tuwien.ac.at/statesml" name="LineFollowingBehavior">
+  <nodes xsi:type="statesml:State" name="InitialStep" initial="true"/>
+  <nodes xsi:type="statesml:State" name="FollowingLine">
+    <actionSequence>
+      <function href="LineFollowingRobotLibrary.statesml#//@units.0/@functions.0"/>
+    </actionSequence>
+  </nodes>
+  <nodes xsi:type="statesml:State" name="Reversing">
+    <actionSequence>
+      <function href="LineFollowingRobotLibrary.statesml#//@units.0/@functions.1"/>
+      <parameters>
+        <valueSpecification xsi:type="statesml:StringValueSpecification" value="back"/>
+        <parameter href="LineFollowingRobotLibrary.statesml#//@units.0/@functions.1/@parameters.0"/>
+      </parameters>
+    </actionSequence>
+    <actionSequence>
+      <function href="LineFollowingRobotLibrary.statesml#//@units.0/@functions.2"/>
+      <parameters>
+        <valueSpecification xsi:type="statesml:StringValueSpecification" value="red"/>
+        <parameter href="LineFollowingRobotLibrary.statesml#//@units.0/@functions.2/@parameters.0"/>
+      </parameters>
+      <parameters>
+        <valueSpecification xsi:type="statesml:IntegerValueSpecification" value="500"/>
+        <parameter href="LineFollowingRobotLibrary.statesml#//@units.0/@functions.2/@parameters.1"/>
+      </parameters>
+      <parameters>
+        <valueSpecification xsi:type="statesml:BooleanValueSpecification" value="true"/>
+        <parameter href="LineFollowingRobotLibrary.statesml#//@units.0/@functions.2/@parameters.2"/>
+      </parameters>
+    </actionSequence>
+    <actionSequence>
+      <function href="../library/PrimitiveDataTypes.statesml#//@types.1/@functions.0"/>
+      <parameters>
+        <valueSpecification xsi:type="statesml:AttributeValueSpecification" attribute="//@attributes.0"/>
+        <parameter href="../library/PrimitiveDataTypes.statesml#//@types.1/@functions.0/@parameters.0"/>
+      </parameters>
+    </actionSequence>
+  </nodes>
+  <nodes xsi:type="statesml:State" name="TerminalStep" terminal="true"/>
+  <nodes xsi:type="statesml:Transition" name="FollowLine"/>
+  <nodes xsi:type="statesml:Transition" name="Terminate">
+    <trigger event="//@processibleEvents.1"/>
+  </nodes>
+  <nodes xsi:type="statesml:Transition" name="Reverse">
+    <trigger event="//@processibleEvents.0"/>
+  </nodes>
+  <nodes xsi:type="statesml:Transition" name="RepeatFollowLineAfterReversing"/>
+  <nodes xsi:type="statesml:SelectionConvergence" name="ConvergeToFollowLine"/>
+  <nodes xsi:type="statesml:SelectionDivergence" name="DivergeAfterFollowLine"/>
+  <edges name="e1" source="//@nodes.0" target="//@nodes.4"/>
+  <edges source="//@nodes.4" target="//@nodes.8"/>
+  <edges source="//@nodes.8" target="//@nodes.1"/>
+  <edges source="//@nodes.1" target="//@nodes.9"/>
+  <edges source="//@nodes.9" target="//@nodes.5"/>
+  <edges source="//@nodes.5" target="//@nodes.3"/>
+  <edges source="//@nodes.9" target="//@nodes.6"/>
+  <edges source="//@nodes.6" target="//@nodes.2"/>
+  <edges source="//@nodes.2" target="//@nodes.7"/>
+  <edges source="//@nodes.7" target="//@nodes.8"/>
+  <processibleEvents xsi:type="statesml:ChangeEvent" name="SurfaceColorIsRed">
+    <changeExpression>
+      <booleanFunctionCall>
+        <function href="../library/PrimitiveDataTypes.statesml#//@types.0/@functions.0"/>
+        <parameters>
+          <valueSpecification xsi:type="statesml:AttributeValueSpecification">
+            <attribute href="LineFollowingRobotLibrary.statesml#//@units.0/@attributes.0"/>
+          </valueSpecification>
+          <parameter href="../library/PrimitiveDataTypes.statesml#//@types.0/@functions.0/@parameters.0"/>
+        </parameters>
+        <parameters>
+          <valueSpecification xsi:type="statesml:StringValueSpecification" value="red"/>
+          <parameter href="../library/PrimitiveDataTypes.statesml#//@types.0/@functions.0/@parameters.1"/>
+        </parameters>
+      </booleanFunctionCall>
+    </changeExpression>
+  </processibleEvents>
+  <processibleEvents xsi:type="statesml:ChangeEvent" name="SurfaceColorIsWhite">
+    <changeExpression>
+      <booleanFunctionCall>
+        <function href="../library/PrimitiveDataTypes.statesml#//@types.0/@functions.0"/>
+        <parameters>
+          <valueSpecification xsi:type="statesml:AttributeValueSpecification">
+            <attribute href="LineFollowingRobotLibrary.statesml#//@units.0/@attributes.0"/>
+          </valueSpecification>
+          <parameter href="../library/PrimitiveDataTypes.statesml#//@types.0/@functions.0/@parameters.0"/>
+        </parameters>
+        <parameters>
+          <valueSpecification xsi:type="statesml:StringValueSpecification" value="white"/>
+          <parameter href="../library/PrimitiveDataTypes.statesml#//@types.0/@functions.0/@parameters.1"/>
+        </parameters>
+      </booleanFunctionCall>
+    </changeExpression>
+  </processibleEvents>
+  <systemUnit href="LineFollowingRobotLibrary.statesml#//@units.0"/>
+  <attributes name="timesReversed">
+    <type href="../library/PrimitiveDataTypes.statesml#//@types.1"/>
+  </attributes>
+</statesml:StateSystem>

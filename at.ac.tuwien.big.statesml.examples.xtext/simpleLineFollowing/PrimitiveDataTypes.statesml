@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statesml:DataTypeLibrary xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:statesml="http://www.big.tuwien.ac.at/statesml" name="PrimitiveDataTypes">
+  <types name="String">
+    <functions name="equals">
+      <parameters name="s1" type="//@types.0"/>
+      <parameters name="s2" type="//@types.0"/>
+      <parameters name="result" type="//@types.2" direction="RETURN"/>
+    </functions>
+  </types>
+  <types name="Integer">
+    <functions name="incrementValue">
+      <parameters name="value" type="//@types.1"/>
+      <parameters name="result" type="//@types.1" direction="RETURN"/>
+    </functions>
+  </types>
+  <types name="Boolean"/>
+</statesml:DataTypeLibrary>

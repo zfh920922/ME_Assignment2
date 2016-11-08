@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:statesml="http://www.big.tuwien.ac.at/statesml" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description" xmi:id="_xThAkKJqEeaR-Zby0tDH8g" selectedViews="_nfxZIKJrEeaR-Zby0tDH8g" version="11.0.1.201608181000">
+  <semanticResources>simpleLineFollowing/LineFollowingBehavior.statesml</semanticResources>
+  <semanticResources>simpleLineFollowing/LineFollowingRobotLibrary.statesml</semanticResources>
+  <semanticResources>library/PrimitiveDataTypes.statesml</semanticResources>
+  <semanticResources>creationToolTest/CreationToolTestStateSystem.statesml</semanticResources>
+  <ownedViews xmi:type="viewpoint:DView" xmi:id="_nfxZIKJrEeaR-Zby0tDH8g">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']"/>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_ZyOEMKKQEea9boJX0sSiyw" name="Creation Tool Test State System Diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_ZyOrQKKQEea9boJX0sSiyw" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_ZyOrQaKQEea9boJX0sSiyw"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Zy-5MKKQEea9boJX0sSiyw" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_Zy-5MaKQEea9boJX0sSiyw" type="Sirius" element="_ZyOEMKKQEea9boJX0sSiyw" measurementUnit="Pixel">
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_Zy-5MqKQEea9boJX0sSiyw"/>
+        </data>
+      </ownedAnnotationEntries>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_ZyOrQqKQEea9boJX0sSiyw"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer"/>
+      <target xmi:type="statesml:StateSystem" href="creationToolTest/CreationToolTestStateSystem.statesml#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_bsy6gKKQEea9boJX0sSiyw" name="Line Following Behavior State System Diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_bszhkKKQEea9boJX0sSiyw" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_bszhkaKQEea9boJX0sSiyw"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_bs0IoKKQEea9boJX0sSiyw" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_bs0IoaKQEea9boJX0sSiyw" type="Sirius" element="_bsy6gKKQEea9boJX0sSiyw" measurementUnit="Pixel">
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_bs0IoqKQEea9boJX0sSiyw"/>
+        </data>
+      </ownedAnnotationEntries>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_bszhkqKQEea9boJX0sSiyw"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer"/>
+      <target xmi:type="statesml:StateSystem" href="simpleLineFollowing/LineFollowingBehavior.statesml#/"/>
+    </ownedRepresentations>
+  </ownedViews>
+</viewpoint:DAnalysis>

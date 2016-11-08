@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated statesml -->
+      <package
+            uri="http://www.big.tuwien.ac.at/statesml"
+            class="at.ac.tuwien.big.statesml.StatesMLPackage"
+            genModel="model/statesml.genmodel"/>
+   </extension>
+
+</plugin>

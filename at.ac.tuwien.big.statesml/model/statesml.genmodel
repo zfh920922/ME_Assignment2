@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/at.ac.tuwien.big.statesml/src" modelPluginID="at.ac.tuwien.big.statesml"
+    modelName="StatesML" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>statesml.ecore</foreignModel>
+  <genPackages prefix="StatesML" basePackage="at.ac.tuwien.big" disposableProviderFactory="true"
+      ecorePackage="statesml.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="statesml.ecore#//ParameterDirectionKind">
+      <genEnumLiterals ecoreEnumLiteral="statesml.ecore#//ParameterDirectionKind/IN"/>
+      <genEnumLiterals ecoreEnumLiteral="statesml.ecore#//ParameterDirectionKind/RETURN"/>
+    </genEnums>
+    <genClasses ecoreClass="statesml.ecore#//SystemUnit">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//SystemUnit/attributes"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//Attribute"/>
+    <genClasses image="false" ecoreClass="statesml.ecore#//TypedElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference statesml.ecore#//TypedElement/type"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//DataType"/>
+    <genClasses image="false" ecoreClass="statesml.ecore#//NamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute statesml.ecore#//NamedElement/name"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//Function">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//Function/parameters"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//Parameter">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute statesml.ecore#//Parameter/direction"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//StateSystem">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//StateSystem/nodes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//StateSystem/edges"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//StateSystem/processibleEvents"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference statesml.ecore#//StateSystem/systemUnit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//StateSystem/attributes"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="statesml.ecore#//Node">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference statesml.ecore#//Node/outgoingEdges"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference statesml.ecore#//Node/incomingEdges"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//Edge">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference statesml.ecore#//Edge/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference statesml.ecore#//Edge/target"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//SelectionDivergence"/>
+    <genClasses ecoreClass="statesml.ecore#//SelectionConvergence"/>
+    <genClasses ecoreClass="statesml.ecore#//State">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//State/actionSequence"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute statesml.ecore#//State/initial"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute statesml.ecore#//State/terminal"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//Transition">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//Transition/trigger"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//FunctionCall">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference statesml.ecore#//FunctionCall/function"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//FunctionCall/parameters"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//ParameterValue">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//ParameterValue/valueSpecification"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference statesml.ecore#//ParameterValue/parameter"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference statesml.ecore#//ParameterValue/functionCall"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="statesml.ecore#//ValueSpecification">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference statesml.ecore#//ValueSpecification/parameterValue"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//IntegerValueSpecification">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute statesml.ecore#//IntegerValueSpecification/value"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//BooleanValueSpecification">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute statesml.ecore#//BooleanValueSpecification/value"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//AttributeValueSpecification">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference statesml.ecore#//AttributeValueSpecification/attribute"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//Trigger">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference statesml.ecore#//Trigger/event"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="statesml.ecore#//Event"/>
+    <genClasses ecoreClass="statesml.ecore#//ChangeEvent">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//ChangeEvent/changeExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//ChangeExpression">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//ChangeExpression/booleanFunctionCall"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="statesml.ecore#//BehavioredElement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//BehavioredElement/functions"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//StringValueSpecification">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute statesml.ecore#//StringValueSpecification/value"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//SystemUnitLibrary">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//SystemUnitLibrary/units"/>
+    </genClasses>
+    <genClasses ecoreClass="statesml.ecore#//DataTypeLibrary">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference statesml.ecore#//DataTypeLibrary/types"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

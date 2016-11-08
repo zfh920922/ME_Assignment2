@@ -1,0 +1,43 @@
+statesystem LineFollowingBehaviorScopingTest2 for SimpleLineFollowingRobot {
+	attributes {
+		timesReversed:Integer
+	}
+	events {
+		SurfaceColorIsRed: equals(s1=LineFollowingBehaviorScopingTest2.timesReversed,s2="red")
+		SurfaceColorIsWhite: equals(s1=surfaceColor,s2="white")
+	}
+	states {
+		initial InitialStep
+		FollowingLine{
+			followLine()
+		}
+		Reversing{
+			pickDirection(direction="back")
+			shineLight(color="red",durationInMs=500,blinking=true)
+			incrementValue(value=timesReversed)
+		}
+		terminal TerminalStep
+	}
+	transitions {
+		FollowLine
+		Terminate triggerd-by SurfaceColorIsWhite
+		Reverse triggerd-by SurfaceColorIsRed
+		RepeatFollowLineAfterReversing
+	}
+	control {
+		convergence ConvergeToFollowLine
+		divergence DivergeAfterFollowLine
+	}
+	edges {
+		e1: InitialStep => FollowLine
+		FollowLine => ConvergeToFollowLine
+		ConvergeToFollowLine => FollowingLine
+		FollowingLine => DivergeAfterFollowLine
+		DivergeAfterFollowLine => Terminate
+		Terminate => TerminalStep
+		DivergeAfterFollowLine => Reverse
+		Reverse => Reversing
+		Reversing => RepeatFollowLineAfterReversing
+		RepeatFollowLineAfterReversing => ConvergeToFollowLine
+	}
+}
