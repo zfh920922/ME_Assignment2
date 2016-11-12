@@ -5,18 +5,31 @@ package at.ac.tuwien.big.statesml.scoping;
 
 import java.util.stream.Stream;
 
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.stream.Stream;
+
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EReference;
 import org.eclipse.xtext.scoping.IScope;
 import org.eclipse.xtext.scoping.Scopes;
 import org.eclipse.xtext.scoping.impl.AbstractDeclarativeScopeProvider;
 
+import at.ac.tuwien.big.statesml.Attribute;
+import at.ac.tuwien.big.statesml.AttributeValueSpecification;
+import at.ac.tuwien.big.statesml.ChangeEvent;
+import at.ac.tuwien.big.statesml.ChangeExpression;
+import at.ac.tuwien.big.statesml.DataType;
 import at.ac.tuwien.big.statesml.Edge;
+import at.ac.tuwien.big.statesml.Event;
+import at.ac.tuwien.big.statesml.FunctionCall;
 import at.ac.tuwien.big.statesml.Node;
+import at.ac.tuwien.big.statesml.Parameter;
+import at.ac.tuwien.big.statesml.ParameterDirectionKind;
+import at.ac.tuwien.big.statesml.ParameterValue;
 import at.ac.tuwien.big.statesml.StateSystem;
 import at.ac.tuwien.big.statesml.StatesMLPackage;
 import at.ac.tuwien.big.statesml.Transition;
-
 /**
  * This class contains custom scoping description.
  * 
@@ -138,5 +151,42 @@ public class StateSystemScopeProvider extends AbstractDeclarativeScopeProvider {
 	 */
 	public StateSystem getStateSystem(Edge edge) {
 		return (StateSystem) edge.eContainer();
+	}
+	public IScope scope_parameterValue_parameter(ParameterValue parameterValue, EReference eReference) {
+		
+		if (!eReference.equals(StatesMLPackage.Literals.PARAMETER_VALUE__PARAMETER)) {
+			return IScope.NULLSCOPE;
+		}
+		return Scopes.scopeFor(getParameter(parameterValue.getFunctionCall()));		
+	}
+	public Collection<Parameter> getParameter(FunctionCall functioncall) {
+		Collection<Parameter> parameters=functioncall.getFunction().getParameters();
+		for(Parameter p:parameters){
+			if(p.getDirection()!=ParameterDirectionKind.IN)
+				parameters.remove(p);
+		}
+		return parameters;
+	}
+   public IScope scope_attribute_value_specification_attribute(AttributeValueSpecification attributevaluespecification , EReference eReference) {
+		
+		if (!eReference.equals(StatesMLPackage.Literals.ATTRIBUTE_VALUE_SPECIFICATION__ATTRIBUTE)) {
+			return IScope.NULLSCOPE;
+		}
+		return Scopes.scopeFor(getAttribute(attributevaluespecification));		
+	}
+	public Collection<Attribute> getAttribute(AttributeValueSpecification attributevaluespecification) {
+		
+		FunctionCall functioncall=(FunctionCall)attributevaluespecification.getParameterValue().eContainer();
+		StateSystem statesystem=(StateSystem) functioncall.eContainer();
+		Collection<Attribute> attributes=new HashSet<Attribute>();
+		statesystem.getAttributes();
+		attributes.addAll(statesystem.getAttributes());
+		attributes.addAll(statesystem.getSystemUnit().getAttributes());
+		DataType type=attributevaluespecification.getParameterValue().getParameter().getType();
+		for(Attribute a:attributes){
+			if(a.getType()!=type) attributes.remove(a);
+		}
+				
+				return attributes;
 	}
 }

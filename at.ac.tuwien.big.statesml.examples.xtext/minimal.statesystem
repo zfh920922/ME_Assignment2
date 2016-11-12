@@ -1,8 +1,8 @@
 statesystem MinimalStateSystem for SimpleLineFollowingRobot {
 	states {
-		initial initialState
-		intermediateState
-		terminal terminalState
+		s initial initialState
+		s intermediateState
+		s terminal terminalState
 	}
 	transitions {
 		transition1
