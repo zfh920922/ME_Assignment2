@@ -7,16 +7,16 @@ statesystem LineFollowingBehaviorScopingTest1 for SimpleLineFollowingRobot {
 		SurfaceColorIsWhite: equals(direction=surfaceColor,s2="white")
 	}
 	states {
-		initial InitialStep
-		FollowingLine{
+		s initial InitialStep
+		s FollowingLine{
 			followLine()
 		}
-		Reversing{
+		s Reversing{
 			pickDirection(direction="back")
 			shineLight(color="red",durationInMs=500,blinking=true)
 			incrementValue(value=timesReversed)
 		}
-		terminal TerminalStep
+		s terminal TerminalStep
 	}
 	transitions {
 		FollowLine

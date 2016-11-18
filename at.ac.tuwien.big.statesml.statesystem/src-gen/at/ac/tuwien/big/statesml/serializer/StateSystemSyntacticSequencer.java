@@ -11,6 +11,9 @@ import org.eclipse.xtext.IGrammarAccess;
 import org.eclipse.xtext.RuleCall;
 import org.eclipse.xtext.nodemodel.INode;
 import org.eclipse.xtext.serializer.analysis.GrammarAlias.AbstractElementAlias;
+import org.eclipse.xtext.serializer.analysis.GrammarAlias.GroupAlias;
+import org.eclipse.xtext.serializer.analysis.GrammarAlias.TokenAlias;
+import org.eclipse.xtext.serializer.analysis.ISyntacticSequencerPDAProvider.ISynNavigable;
 import org.eclipse.xtext.serializer.analysis.ISyntacticSequencerPDAProvider.ISynTransition;
 import org.eclipse.xtext.serializer.sequencer.AbstractSyntacticSequencer;
 
@@ -18,10 +21,24 @@ import org.eclipse.xtext.serializer.sequencer.AbstractSyntacticSequencer;
 public class StateSystemSyntacticSequencer extends AbstractSyntacticSequencer {
 
 	protected StateSystemGrammarAccess grammarAccess;
+	protected AbstractElementAlias match_ParameterValue_CommaKeyword_3_q;
+	protected AbstractElementAlias match_StateSystem_RightCurlyBracketKeyword_2_2_a;
+	protected AbstractElementAlias match_StateSystem_RightCurlyBracketKeyword_2_2_p;
+	protected AbstractElementAlias match_StateSystem___RightCurlyBracketKeyword_1_3_RightCurlyBracketKeyword_2_2_a_TransitionsKeyword_1_0_LeftCurlyBracketKeyword_1_1__q;
+	protected AbstractElementAlias match_StateSystem___RightCurlyBracketKeyword_2_0_3_RightCurlyBracketKeyword_2_2_p_ControlKeyword_2_0_0_LeftCurlyBracketKeyword_2_0_1__q;
+	protected AbstractElementAlias match_StateSystem___RightCurlyBracketKeyword_2_1_3_RightCurlyBracketKeyword_2_2_p_EdgesKeyword_2_1_0_LeftCurlyBracketKeyword_2_1_1__q;
+	protected AbstractElementAlias match_State___LeftCurlyBracketKeyword_1_1_0_RightCurlyBracketKeyword_1_1_2__q;
 	
 	@Inject
 	protected void init(IGrammarAccess access) {
 		grammarAccess = (StateSystemGrammarAccess) access;
+		match_ParameterValue_CommaKeyword_3_q = new TokenAlias(false, true, grammarAccess.getParameterValueAccess().getCommaKeyword_3());
+		match_StateSystem_RightCurlyBracketKeyword_2_2_a = new TokenAlias(true, true, grammarAccess.getStateSystemAccess().getRightCurlyBracketKeyword_2_2());
+		match_StateSystem_RightCurlyBracketKeyword_2_2_p = new TokenAlias(true, false, grammarAccess.getStateSystemAccess().getRightCurlyBracketKeyword_2_2());
+		match_StateSystem___RightCurlyBracketKeyword_1_3_RightCurlyBracketKeyword_2_2_a_TransitionsKeyword_1_0_LeftCurlyBracketKeyword_1_1__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getStateSystemAccess().getRightCurlyBracketKeyword_1_3()), new TokenAlias(true, true, grammarAccess.getStateSystemAccess().getRightCurlyBracketKeyword_2_2()), new TokenAlias(false, false, grammarAccess.getStateSystemAccess().getTransitionsKeyword_1_0()), new TokenAlias(false, false, grammarAccess.getStateSystemAccess().getLeftCurlyBracketKeyword_1_1()));
+		match_StateSystem___RightCurlyBracketKeyword_2_0_3_RightCurlyBracketKeyword_2_2_p_ControlKeyword_2_0_0_LeftCurlyBracketKeyword_2_0_1__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getStateSystemAccess().getRightCurlyBracketKeyword_2_0_3()), new TokenAlias(true, false, grammarAccess.getStateSystemAccess().getRightCurlyBracketKeyword_2_2()), new TokenAlias(false, false, grammarAccess.getStateSystemAccess().getControlKeyword_2_0_0()), new TokenAlias(false, false, grammarAccess.getStateSystemAccess().getLeftCurlyBracketKeyword_2_0_1()));
+		match_StateSystem___RightCurlyBracketKeyword_2_1_3_RightCurlyBracketKeyword_2_2_p_EdgesKeyword_2_1_0_LeftCurlyBracketKeyword_2_1_1__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getStateSystemAccess().getRightCurlyBracketKeyword_2_1_3()), new TokenAlias(true, false, grammarAccess.getStateSystemAccess().getRightCurlyBracketKeyword_2_2()), new TokenAlias(false, false, grammarAccess.getStateSystemAccess().getEdgesKeyword_2_1_0()), new TokenAlias(false, false, grammarAccess.getStateSystemAccess().getLeftCurlyBracketKeyword_2_1_1()));
+		match_State___LeftCurlyBracketKeyword_1_1_0_RightCurlyBracketKeyword_1_1_2__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getStateAccess().getLeftCurlyBracketKeyword_1_1_0()), new TokenAlias(false, false, grammarAccess.getStateAccess().getRightCurlyBracketKeyword_1_1_2()));
 	}
 	
 	@Override
@@ -36,8 +53,115 @@ public class StateSystemSyntacticSequencer extends AbstractSyntacticSequencer {
 		List<INode> transitionNodes = collectNodes(fromNode, toNode);
 		for (AbstractElementAlias syntax : transition.getAmbiguousSyntaxes()) {
 			List<INode> syntaxNodes = getNodesFor(transitionNodes, syntax);
-			acceptNodes(getLastNavigableState(), syntaxNodes);
+			if (match_ParameterValue_CommaKeyword_3_q.equals(syntax))
+				emit_ParameterValue_CommaKeyword_3_q(semanticObject, getLastNavigableState(), syntaxNodes);
+			else if (match_StateSystem_RightCurlyBracketKeyword_2_2_a.equals(syntax))
+				emit_StateSystem_RightCurlyBracketKeyword_2_2_a(semanticObject, getLastNavigableState(), syntaxNodes);
+			else if (match_StateSystem_RightCurlyBracketKeyword_2_2_p.equals(syntax))
+				emit_StateSystem_RightCurlyBracketKeyword_2_2_p(semanticObject, getLastNavigableState(), syntaxNodes);
+			else if (match_StateSystem___RightCurlyBracketKeyword_1_3_RightCurlyBracketKeyword_2_2_a_TransitionsKeyword_1_0_LeftCurlyBracketKeyword_1_1__q.equals(syntax))
+				emit_StateSystem___RightCurlyBracketKeyword_1_3_RightCurlyBracketKeyword_2_2_a_TransitionsKeyword_1_0_LeftCurlyBracketKeyword_1_1__q(semanticObject, getLastNavigableState(), syntaxNodes);
+			else if (match_StateSystem___RightCurlyBracketKeyword_2_0_3_RightCurlyBracketKeyword_2_2_p_ControlKeyword_2_0_0_LeftCurlyBracketKeyword_2_0_1__q.equals(syntax))
+				emit_StateSystem___RightCurlyBracketKeyword_2_0_3_RightCurlyBracketKeyword_2_2_p_ControlKeyword_2_0_0_LeftCurlyBracketKeyword_2_0_1__q(semanticObject, getLastNavigableState(), syntaxNodes);
+			else if (match_StateSystem___RightCurlyBracketKeyword_2_1_3_RightCurlyBracketKeyword_2_2_p_EdgesKeyword_2_1_0_LeftCurlyBracketKeyword_2_1_1__q.equals(syntax))
+				emit_StateSystem___RightCurlyBracketKeyword_2_1_3_RightCurlyBracketKeyword_2_2_p_EdgesKeyword_2_1_0_LeftCurlyBracketKeyword_2_1_1__q(semanticObject, getLastNavigableState(), syntaxNodes);
+			else if (match_State___LeftCurlyBracketKeyword_1_1_0_RightCurlyBracketKeyword_1_1_2__q.equals(syntax))
+				emit_State___LeftCurlyBracketKeyword_1_1_0_RightCurlyBracketKeyword_1_1_2__q(semanticObject, getLastNavigableState(), syntaxNodes);
+			else acceptNodes(getLastNavigableState(), syntaxNodes);
 		}
 	}
 
+	/**
+	 * Ambiguous syntax:
+	 *     ','?
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     valueSpecification=ValueSpecification (ambiguity) (rule end)
+	 */
+	protected void emit_ParameterValue_CommaKeyword_3_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
+	/**
+	 * Ambiguous syntax:
+	 *     '}'*
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     (rule start) (ambiguity) 'control' '{' nodes+=Control
+	 *     (rule start) (ambiguity) 'edges' '{' edges+=Edge
+	 *     (rule start) (ambiguity) 'statesystem' name=ID
+	 *     (rule start) (ambiguity) 'transitions' '{' nodes+=Node
+	 *     nodes+=Control '}' (ambiguity) 'edges' '{' edges+=Edge
+	 *     nodes+=Node '}' (ambiguity) 'control' '{' nodes+=Control
+	 *     nodes+=Node '}' (ambiguity) 'edges' '{' edges+=Edge
+	 *     nodes+=Node '}' (ambiguity) 'statesystem' name=ID
+	 *     nodes+=Node '}' (ambiguity) 'transitions' '{' nodes+=Node
+	 *     nodes+=Node '}' (ambiguity) (rule end)
+	 */
+	protected void emit_StateSystem_RightCurlyBracketKeyword_2_2_a(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
+	/**
+	 * Ambiguous syntax:
+	 *     '}'+
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     (rule start) (ambiguity) (rule start)
+	 *     edges+=Edge '}' (ambiguity) 'control' '{' nodes+=Control
+	 *     edges+=Edge '}' (ambiguity) 'statesystem' name=ID
+	 *     edges+=Edge '}' (ambiguity) 'transitions' '{' nodes+=Node
+	 *     edges+=Edge '}' (ambiguity) (rule end)
+	 *     nodes+=Control '}' (ambiguity) 'statesystem' name=ID
+	 *     nodes+=Control '}' (ambiguity) 'transitions' '{' nodes+=Node
+	 *     nodes+=Control '}' (ambiguity) (rule end)
+	 */
+	protected void emit_StateSystem_RightCurlyBracketKeyword_2_2_p(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
+	/**
+	 * Ambiguous syntax:
+	 *     ('}' '}'* 'transitions' '{')?
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     nodes+=Node (ambiguity) nodes+=Node
+	 */
+	protected void emit_StateSystem___RightCurlyBracketKeyword_1_3_RightCurlyBracketKeyword_2_2_a_TransitionsKeyword_1_0_LeftCurlyBracketKeyword_1_1__q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
+	/**
+	 * Ambiguous syntax:
+	 *     ('}' '}'+ 'control' '{')?
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     nodes+=Control (ambiguity) nodes+=Control
+	 */
+	protected void emit_StateSystem___RightCurlyBracketKeyword_2_0_3_RightCurlyBracketKeyword_2_2_p_ControlKeyword_2_0_0_LeftCurlyBracketKeyword_2_0_1__q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
+	/**
+	 * Ambiguous syntax:
+	 *     ('}' '}'+ 'edges' '{')?
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     edges+=Edge (ambiguity) edges+=Edge
+	 */
+	protected void emit_StateSystem___RightCurlyBracketKeyword_2_1_3_RightCurlyBracketKeyword_2_2_p_EdgesKeyword_2_1_0_LeftCurlyBracketKeyword_2_1_1__q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
+	/**
+	 * Ambiguous syntax:
+	 *     ('{' '}')?
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     name=ID (ambiguity) (rule end)
+	 */
+	protected void emit_State___LeftCurlyBracketKeyword_1_1_0_RightCurlyBracketKeyword_1_1_2__q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
 }

@@ -6,41 +6,88 @@ import "http://www.eclipse.org/emf/2002/Ecore" as ecore
 // TODO: Extend the Xtext grammar
 
 StateSystem returns StateSystem:
-	'statesystem' name=ID 'for' systemUnit=[SystemUnit] '{'
+		'statesystem' name=ID 'for' systemUnit=[SystemUnit|QualifiedName] 
+	'{'
 	('attributes' '{' (attributes+=Attribute)+ '}')? 
-	('events' '{' (processibleEvents+=Event)+ '}')?
-	('states' '{'(nodes+=State)+ '}')? & 
-	  ('transitions' '{'(nodes+=Transition)+ '}')? &
-	  ('controls' '{'(nodes+=Control)+ '}')?
-	('edges' '{' (edges+=Edges)+'}')?
-	'}'
-	;
+	('events' '{' (processibleEvents+=ChangeEvent)+ '}')?
+	('states' '{'(nodes+=Node)+ '}') & 
+	('transitions' '{'(nodes+=Node)+ '}') &
+	('control' '{'(nodes+=Control)+ '}')?
+	('edges' '{' (edges+=Edge)+'}')?
+	'}';
 
-Edges:
-	
+Node:
+	's'State | Transition	
 ;
+
+	
+Edge:
+ (name=ID':')? source=[Node|QualifiedName] '=>' target=[Node|QualifiedName]
+	;
 
 
 Control returns Node:
-	SelectionDivergence | SelectionConvergence
+	'divergence' SelectionDivergence | 'convergence' SelectionConvergence
 ;
 
 SelectionConvergence:
-	name=ID
-;
-
-SelectionDivergence:
-	name=ID
-;
-
-State:
-	(((initial?='initial'|^terminal?='terminal') name=ID)| name=ID '{' actionSequence+=FunctionCall* '}')
-;
-
-FunctionCall:
+	 name=ID   
 	
 ;
 
+SelectionDivergence:
+	 name=ID
+;
+
+State:
+	(((initial?='initial'|^terminal?='terminal') name=ID)| name=ID ('{' actionSequence+=FunctionCall* '}')?)
+;
+
+
+
+FunctionCall:
+	function=[Function|QualifiedName] '('(parameters+=ParameterValue)*')'
+;
+
+ParameterValue:
+	parameter=[Parameter|QualifiedName] '=' valueSpecification=ValueSpecification (',')?
+;
+
+ValueSpecification:
+	IntegerValueSpecification|BooleanValueSpecification|StringValueSpecification|AttributeValueSpecification
+;
+
+AttributeValueSpecification:
+	attribute=[Attribute|QualifiedName]
+;
+
+StringValueSpecification:
+	value=EString
+;
+
+BooleanValueSpecification:
+	(value?='true'|value?='false')
+;
+
+IntegerValueSpecification:
+	value=EInt
+;
+
+Parameter:
+	name=ID type=[DataType|QualifiedName] direction=ParameterDirectionKind
+;
+
+enum ParameterDirectionKind:
+	IN|RETURN
+;
+
+DataType:
+	name=ID
+;
+
+Function:
+	name=ID (parameters+=Parameter)*
+;
 QualifiedName returns ecore::EString:
 	ID (=> '.' ID)*;
 
@@ -51,22 +98,26 @@ EInt returns ecore::EInt:
 	'-'? INT;
 
 Attribute:
-	name=ID
+	name=ID ':' type=[DataType|QualifiedName]
 	
 ;
 
+ChangeEvent:
+	name=ID ':' changeExpression=ChangeExpression
+;
 
-Event:
-	'event' name=ID
+ChangeExpression:
+	booleanFunctionCall=FunctionCall
 ;
 
 SystemUnit:
-	'systemUnit' name=ID
+	'systemUnit' name=ID (attributes+=Attribute)*
 ;
 
 Transition returns Transition:
-	name=ID ('triggered-by' trigger+=Trigger)?
+	name=ID ('triggerd-by' trigger=Trigger)?
+
 		;
 Trigger:
-	event=[Event]
+	event=[ChangeEvent|QualifiedName]
 ;

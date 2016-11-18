@@ -3,8 +3,26 @@
  */
 package at.ac.tuwien.big.statesml.serializer;
 
+import at.ac.tuwien.big.statesml.Attribute;
+import at.ac.tuwien.big.statesml.AttributeValueSpecification;
+import at.ac.tuwien.big.statesml.BooleanValueSpecification;
+import at.ac.tuwien.big.statesml.ChangeEvent;
+import at.ac.tuwien.big.statesml.ChangeExpression;
+import at.ac.tuwien.big.statesml.DataType;
+import at.ac.tuwien.big.statesml.Edge;
+import at.ac.tuwien.big.statesml.Function;
+import at.ac.tuwien.big.statesml.FunctionCall;
+import at.ac.tuwien.big.statesml.IntegerValueSpecification;
+import at.ac.tuwien.big.statesml.ParameterValue;
+import at.ac.tuwien.big.statesml.SelectionConvergence;
+import at.ac.tuwien.big.statesml.SelectionDivergence;
+import at.ac.tuwien.big.statesml.State;
 import at.ac.tuwien.big.statesml.StateSystem;
 import at.ac.tuwien.big.statesml.StatesMLPackage;
+import at.ac.tuwien.big.statesml.StringValueSpecification;
+import at.ac.tuwien.big.statesml.SystemUnit;
+import at.ac.tuwien.big.statesml.Transition;
+import at.ac.tuwien.big.statesml.Trigger;
 import at.ac.tuwien.big.statesml.services.StateSystemGrammarAccess;
 import com.google.inject.Inject;
 import java.util.Set;
@@ -32,8 +50,65 @@ public class StateSystemSemanticSequencer extends AbstractDelegatingSemanticSequ
 		Set<Parameter> parameters = context.getEnabledBooleanParameters();
 		if (epackage == StatesMLPackage.eINSTANCE)
 			switch (semanticObject.eClass().getClassifierID()) {
+			case StatesMLPackage.ATTRIBUTE:
+				sequence_Attribute(context, (Attribute) semanticObject); 
+				return; 
+			case StatesMLPackage.ATTRIBUTE_VALUE_SPECIFICATION:
+				sequence_AttributeValueSpecification(context, (AttributeValueSpecification) semanticObject); 
+				return; 
+			case StatesMLPackage.BOOLEAN_VALUE_SPECIFICATION:
+				sequence_BooleanValueSpecification(context, (BooleanValueSpecification) semanticObject); 
+				return; 
+			case StatesMLPackage.CHANGE_EVENT:
+				sequence_ChangeEvent(context, (ChangeEvent) semanticObject); 
+				return; 
+			case StatesMLPackage.CHANGE_EXPRESSION:
+				sequence_ChangeExpression(context, (ChangeExpression) semanticObject); 
+				return; 
+			case StatesMLPackage.DATA_TYPE:
+				sequence_DataType(context, (DataType) semanticObject); 
+				return; 
+			case StatesMLPackage.EDGE:
+				sequence_Edge(context, (Edge) semanticObject); 
+				return; 
+			case StatesMLPackage.FUNCTION:
+				sequence_Function(context, (Function) semanticObject); 
+				return; 
+			case StatesMLPackage.FUNCTION_CALL:
+				sequence_FunctionCall(context, (FunctionCall) semanticObject); 
+				return; 
+			case StatesMLPackage.INTEGER_VALUE_SPECIFICATION:
+				sequence_IntegerValueSpecification(context, (IntegerValueSpecification) semanticObject); 
+				return; 
+			case StatesMLPackage.PARAMETER:
+				sequence_Parameter(context, (at.ac.tuwien.big.statesml.Parameter) semanticObject); 
+				return; 
+			case StatesMLPackage.PARAMETER_VALUE:
+				sequence_ParameterValue(context, (ParameterValue) semanticObject); 
+				return; 
+			case StatesMLPackage.SELECTION_CONVERGENCE:
+				sequence_SelectionConvergence(context, (SelectionConvergence) semanticObject); 
+				return; 
+			case StatesMLPackage.SELECTION_DIVERGENCE:
+				sequence_SelectionDivergence(context, (SelectionDivergence) semanticObject); 
+				return; 
+			case StatesMLPackage.STATE:
+				sequence_State(context, (State) semanticObject); 
+				return; 
 			case StatesMLPackage.STATE_SYSTEM:
 				sequence_StateSystem(context, (StateSystem) semanticObject); 
+				return; 
+			case StatesMLPackage.STRING_VALUE_SPECIFICATION:
+				sequence_StringValueSpecification(context, (StringValueSpecification) semanticObject); 
+				return; 
+			case StatesMLPackage.SYSTEM_UNIT:
+				sequence_SystemUnit(context, (SystemUnit) semanticObject); 
+				return; 
+			case StatesMLPackage.TRANSITION:
+				sequence_Transition(context, (Transition) semanticObject); 
+				return; 
+			case StatesMLPackage.TRIGGER:
+				sequence_Trigger(context, (Trigger) semanticObject); 
 				return; 
 			}
 		if (errorAcceptor != null)
@@ -42,18 +117,338 @@ public class StateSystemSemanticSequencer extends AbstractDelegatingSemanticSequ
 	
 	/**
 	 * Contexts:
-	 *     StateSystem returns StateSystem
+	 *     ValueSpecification returns AttributeValueSpecification
+	 *     AttributeValueSpecification returns AttributeValueSpecification
+	 *
+	 * Constraint:
+	 *     attribute=[Attribute|QualifiedName]
+	 */
+	protected void sequence_AttributeValueSpecification(ISerializationContext context, AttributeValueSpecification semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.ATTRIBUTE_VALUE_SPECIFICATION__ATTRIBUTE) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.ATTRIBUTE_VALUE_SPECIFICATION__ATTRIBUTE));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getAttributeValueSpecificationAccess().getAttributeAttributeQualifiedNameParserRuleCall_0_1(), semanticObject.getAttribute());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Attribute returns Attribute
+	 *
+	 * Constraint:
+	 *     (name=ID type=[DataType|QualifiedName])
+	 */
+	protected void sequence_Attribute(ISerializationContext context, Attribute semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.NAMED_ELEMENT__NAME) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.NAMED_ELEMENT__NAME));
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.TYPED_ELEMENT__TYPE) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.TYPED_ELEMENT__TYPE));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getAttributeAccess().getNameIDTerminalRuleCall_0_0(), semanticObject.getName());
+		feeder.accept(grammarAccess.getAttributeAccess().getTypeDataTypeQualifiedNameParserRuleCall_2_0_1(), semanticObject.getType());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     ValueSpecification returns BooleanValueSpecification
+	 *     BooleanValueSpecification returns BooleanValueSpecification
+	 *
+	 * Constraint:
+	 *     (value?='true' | value?='false')
+	 */
+	protected void sequence_BooleanValueSpecification(ISerializationContext context, BooleanValueSpecification semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     ChangeEvent returns ChangeEvent
+	 *
+	 * Constraint:
+	 *     (name=ID changeExpression=ChangeExpression)
+	 */
+	protected void sequence_ChangeEvent(ISerializationContext context, ChangeEvent semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.NAMED_ELEMENT__NAME) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.NAMED_ELEMENT__NAME));
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.CHANGE_EVENT__CHANGE_EXPRESSION) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.CHANGE_EVENT__CHANGE_EXPRESSION));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getChangeEventAccess().getNameIDTerminalRuleCall_0_0(), semanticObject.getName());
+		feeder.accept(grammarAccess.getChangeEventAccess().getChangeExpressionChangeExpressionParserRuleCall_2_0(), semanticObject.getChangeExpression());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     ChangeExpression returns ChangeExpression
+	 *
+	 * Constraint:
+	 *     booleanFunctionCall=FunctionCall
+	 */
+	protected void sequence_ChangeExpression(ISerializationContext context, ChangeExpression semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.CHANGE_EXPRESSION__BOOLEAN_FUNCTION_CALL) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.CHANGE_EXPRESSION__BOOLEAN_FUNCTION_CALL));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getChangeExpressionAccess().getBooleanFunctionCallFunctionCallParserRuleCall_0(), semanticObject.getBooleanFunctionCall());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     DataType returns DataType
 	 *
 	 * Constraint:
 	 *     name=ID
 	 */
-	protected void sequence_StateSystem(ISerializationContext context, StateSystem semanticObject) {
+	protected void sequence_DataType(ISerializationContext context, DataType semanticObject) {
 		if (errorAcceptor != null) {
 			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.NAMED_ELEMENT__NAME) == ValueTransient.YES)
 				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.NAMED_ELEMENT__NAME));
 		}
 		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
-		feeder.accept(grammarAccess.getStateSystemAccess().getNameIDTerminalRuleCall_1_0(), semanticObject.getName());
+		feeder.accept(grammarAccess.getDataTypeAccess().getNameIDTerminalRuleCall_0(), semanticObject.getName());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Edge returns Edge
+	 *
+	 * Constraint:
+	 *     (name=ID? source=[Node|QualifiedName] target=[Node|QualifiedName])
+	 */
+	protected void sequence_Edge(ISerializationContext context, Edge semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     FunctionCall returns FunctionCall
+	 *
+	 * Constraint:
+	 *     (function=[Function|QualifiedName] parameters+=ParameterValue*)
+	 */
+	protected void sequence_FunctionCall(ISerializationContext context, FunctionCall semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Function returns Function
+	 *
+	 * Constraint:
+	 *     (name=ID parameters+=Parameter*)
+	 */
+	protected void sequence_Function(ISerializationContext context, Function semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     ValueSpecification returns IntegerValueSpecification
+	 *     IntegerValueSpecification returns IntegerValueSpecification
+	 *
+	 * Constraint:
+	 *     value=EInt
+	 */
+	protected void sequence_IntegerValueSpecification(ISerializationContext context, IntegerValueSpecification semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.INTEGER_VALUE_SPECIFICATION__VALUE) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.INTEGER_VALUE_SPECIFICATION__VALUE));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getIntegerValueSpecificationAccess().getValueEIntParserRuleCall_0(), semanticObject.getValue());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     ParameterValue returns ParameterValue
+	 *
+	 * Constraint:
+	 *     (parameter=[Parameter|QualifiedName] valueSpecification=ValueSpecification)
+	 */
+	protected void sequence_ParameterValue(ISerializationContext context, ParameterValue semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.PARAMETER_VALUE__PARAMETER) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.PARAMETER_VALUE__PARAMETER));
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.PARAMETER_VALUE__VALUE_SPECIFICATION) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.PARAMETER_VALUE__VALUE_SPECIFICATION));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getParameterValueAccess().getParameterParameterQualifiedNameParserRuleCall_0_0_1(), semanticObject.getParameter());
+		feeder.accept(grammarAccess.getParameterValueAccess().getValueSpecificationValueSpecificationParserRuleCall_2_0(), semanticObject.getValueSpecification());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Parameter returns Parameter
+	 *
+	 * Constraint:
+	 *     (name=ID type=[DataType|QualifiedName] direction=ParameterDirectionKind)
+	 */
+	protected void sequence_Parameter(ISerializationContext context, at.ac.tuwien.big.statesml.Parameter semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.NAMED_ELEMENT__NAME) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.NAMED_ELEMENT__NAME));
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.TYPED_ELEMENT__TYPE) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.TYPED_ELEMENT__TYPE));
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.PARAMETER__DIRECTION) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.PARAMETER__DIRECTION));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getParameterAccess().getNameIDTerminalRuleCall_0_0(), semanticObject.getName());
+		feeder.accept(grammarAccess.getParameterAccess().getTypeDataTypeQualifiedNameParserRuleCall_1_0_1(), semanticObject.getType());
+		feeder.accept(grammarAccess.getParameterAccess().getDirectionParameterDirectionKindEnumRuleCall_2_0(), semanticObject.getDirection());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Control returns SelectionConvergence
+	 *     SelectionConvergence returns SelectionConvergence
+	 *
+	 * Constraint:
+	 *     name=ID
+	 */
+	protected void sequence_SelectionConvergence(ISerializationContext context, SelectionConvergence semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.NAMED_ELEMENT__NAME) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.NAMED_ELEMENT__NAME));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getSelectionConvergenceAccess().getNameIDTerminalRuleCall_0(), semanticObject.getName());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Control returns SelectionDivergence
+	 *     SelectionDivergence returns SelectionDivergence
+	 *
+	 * Constraint:
+	 *     name=ID
+	 */
+	protected void sequence_SelectionDivergence(ISerializationContext context, SelectionDivergence semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.NAMED_ELEMENT__NAME) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.NAMED_ELEMENT__NAME));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getSelectionDivergenceAccess().getNameIDTerminalRuleCall_0(), semanticObject.getName());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     StateSystem returns StateSystem
+	 *
+	 * Constraint:
+	 *     (
+	 *         (nodes+=Node | nodes+=Control | edges+=Edge)? 
+	 *         (name=ID systemUnit=[SystemUnit|QualifiedName] attributes+=Attribute* processibleEvents+=ChangeEvent* nodes+=Node+)?
+	 *     )+
+	 */
+	protected void sequence_StateSystem(ISerializationContext context, StateSystem semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Node returns State
+	 *     State returns State
+	 *
+	 * Constraint:
+	 *     (((initial?='initial' | terminal?='terminal') name=ID) | (name=ID actionSequence+=FunctionCall*))
+	 */
+	protected void sequence_State(ISerializationContext context, State semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     ValueSpecification returns StringValueSpecification
+	 *     StringValueSpecification returns StringValueSpecification
+	 *
+	 * Constraint:
+	 *     value=EString
+	 */
+	protected void sequence_StringValueSpecification(ISerializationContext context, StringValueSpecification semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.STRING_VALUE_SPECIFICATION__VALUE) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.STRING_VALUE_SPECIFICATION__VALUE));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getStringValueSpecificationAccess().getValueEStringParserRuleCall_0(), semanticObject.getValue());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     SystemUnit returns SystemUnit
+	 *
+	 * Constraint:
+	 *     (name=ID attributes+=Attribute*)
+	 */
+	protected void sequence_SystemUnit(ISerializationContext context, SystemUnit semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Node returns Transition
+	 *     Transition returns Transition
+	 *
+	 * Constraint:
+	 *     (name=ID trigger=Trigger?)
+	 */
+	protected void sequence_Transition(ISerializationContext context, Transition semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Trigger returns Trigger
+	 *
+	 * Constraint:
+	 *     event=[ChangeEvent|QualifiedName]
+	 */
+	protected void sequence_Trigger(ISerializationContext context, Trigger semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, StatesMLPackage.Literals.TRIGGER__EVENT) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, StatesMLPackage.Literals.TRIGGER__EVENT));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getTriggerAccess().getEventChangeEventQualifiedNameParserRuleCall_0_1(), semanticObject.getEvent());
 		feeder.finish();
 	}
 	
