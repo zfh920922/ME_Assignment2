@@ -1,13 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" name="statesml" version="11.0.0.201601261200">
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="statesml" version="11.0.0.201601261200">
   <ownedViewpoints name="StatesML" modelFileExtension="statesml">
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="State System Diagram" domainClass="statesml.StateSystem" enablePopupBars="true">
       <metamodel href="http://www.big.tuwien.ac.at/statesml#/"/>
-      <defaultLayer name="Default"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="State" label="State" domainClass="statesml.State">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" borderColor="//@userColorsPalettes[name='StateML%20Colors']/@entries[name='statesml_bordercolor']" labelSize="10" showIcon="false" labelPosition="node" resizeKind="NSEW" color="//@userColorsPalettes[name='StateML%20Colors']/@entries[name='statesml_backgroundcolor']">
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+          <conditionnalStyles predicateExpression="feature:initial">
+            <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" borderColor="//@userColorsPalettes[name='StateML%20Colors']/@entries[name='statesml_bordercolor']" borderLineStyle="dash" showIcon="false" labelPosition="node" resizeKind="NSEW" color="//@userColorsPalettes[name='StateML%20Colors']/@entries[name='statesml_backgroundcolor']">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="feature:terminal">
+            <style xsi:type="style:SquareDescription" borderSizeComputationExpression="3" borderColor="//@userColorsPalettes[name='StateML%20Colors']/@entries[name='statesml_bordercolor']" showIcon="false" labelPosition="node" resizeKind="NSEW" color="//@userColorsPalettes[name='StateML%20Colors']/@entries[name='statesml_backgroundcolor']">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
+        <nodeMappings name="Transition" domainClass="statesml.Transition">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="[self.name + ' triggered by' + self.trigger.event.name/]" labelAlignment="RIGHT" sizeComputationExpression="0" resizeKind="NSEW" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="SelectionConvergence" label="Selection convergence" domainClass="statesml.SelectionConvergence">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/at.ac.tuwien.big.statesml.design/img/SelectionConDivergence.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="SelectionDivergence" label="Selection divergence" domainClass="statesml.SelectionDivergence">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/at.ac.tuwien.big.statesml.design/img/SelectionConDivergence.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="FunctionCall" domainClass="statesml.FunctionCall">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" borderColor="//@userColorsPalettes[name='StateML%20Colors']/@entries[name='statesml_bordercolor']" showIcon="false" labelExpression="[self.function.name/]" labelPosition="node" resizeKind="NSEW" color="//@userColorsPalettes[name='StateML%20Colors']/@entries[name='statesml_backgroundcolor']">
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="NodeEdge" sourceMapping="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State'] //@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='SelectionConvergence'] //@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='SelectionDivergence'] //@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']" targetMapping="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition'] //@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='SelectionDivergence'] //@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State'] //@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='SelectionConvergence']" targetFinderExpression="feature:target" sourceFinderExpression="feature:source" domainClass="statesml.Edge" useDomainElement="true">
+          <style strokeColor="//@userColorsPalettes[name='StateML%20Colors']/@entries[name='statesml_bordercolor']" sizeComputationExpression="2">
+            <centerLabelStyleDescription showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="FunctionEdge" sourceMapping="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']" targetMapping="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']" targetFinderExpression="feature:actionSequence">
+          <style strokeColor="//@userColorsPalettes[name='StateML%20Colors']/@entries[name='statesml_bordercolor']" targetArrow="NoDecoration" sizeComputationExpression="2">
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="Nodes">
+          <ownedTools xsi:type="tool:ToolGroup" name="State">
+            <tools xsi:type="tool:NodeCreationDescription" name="State" nodeMappings="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']" iconPath="/org.eclipse.uml2.uml.edit/icons/full/obj16/State.gif">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                  <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.State" referenceName="nodes">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[/state]"/>
+                  </subModelOperations>
+                </firstModelOperations>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool:NodeCreationDescription" name="InitialState" precondition="feature:initial" nodeMappings="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']" iconPath="/org.eclipse.uml2.uml.edit/icons/full/obj16/InitialNode.gif">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                  <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.State" referenceName="nodes">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[/state]"/>
+                  </subModelOperations>
+                </firstModelOperations>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool:NodeCreationDescription" name="Terminal State" precondition="feature:terminal" nodeMappings="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                  <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.State" referenceName="nodes">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[/state]"/>
+                  </subModelOperations>
+                </firstModelOperations>
+              </initialOperation>
+            </tools>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Transition" nodeMappings="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']" iconPath="/org.eclipse.uml2.uml.edit/icons/full/obj16/Transition_external.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.State" referenceName="nodes">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[/state]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Selection Convergence" nodeMappings="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='SelectionConvergence']" iconPath="/org.eclipse.uml2.uml.edit/icons/full/obj16/MergeNode.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.State" referenceName="nodes">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[/state]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Selection Divergence" nodeMappings="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='SelectionDivergence']" iconPath="/org.eclipse.uml2.uml.edit/icons/full/obj16/DecisionNode.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.State" referenceName="nodes">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[/state]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Edges">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Edge" edgeMappings="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']" iconPath="/org.eclipse.uml2.uml.edit/icons/full/obj16/Association.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.eContainer()/]">
+                  <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.Edge" referenceName="edges">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
     </ownedRepresentations>
   </ownedViewpoints>
   <userColorsPalettes name="StateML Colors">
     <entries xsi:type="description:UserFixedColor" red="0" green="102" blue="255" name="statesml_bordercolor"/>
-    <entries xsi:type="description:UserFixedColor" red="235" green="233" blue="217" name="statesml_backgroundcolor"/>
+    <entries xsi:type="description:UserFixedColor" red="235" green="233" blue="215" name="statesml_backgroundcolor"/>
   </userColorsPalettes>
 </description:Group>
