@@ -24,6 +24,12 @@
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
+          <conditionnalStyles predicateExpression="[self.trigger.event.oclIsUndefined()/]">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="[self.name/]" labelAlignment="RIGHT" sizeComputationExpression="0" resizeKind="NSEW" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </conditionnalStyles>
         </nodeMappings>
         <nodeMappings name="SelectionConvergence" label="Selection convergence" domainClass="statesml.SelectionConvergence">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/at.ac.tuwien.big.statesml.design/img/SelectionConDivergence.png">

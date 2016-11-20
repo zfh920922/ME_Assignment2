@@ -128,9 +128,9 @@
             <children xmi:type="notation:Node" xmi:id="_O4smk6qLEeawtcZCRnT3sg" type="5002">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_O4smlKqLEeawtcZCRnT3sg" x="-4" y="15"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_shsAQKsxEeawtcZCRnT3sg" type="3005" element="_shek4KsxEeawtcZCRnT3sg">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_shsAQasxEeawtcZCRnT3sg" fontName="Cantarell"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_shsAQqsxEeawtcZCRnT3sg"/>
+            <children xmi:type="notation:Node" xmi:id="_m0lOAK8XEea-9Mvqish4kw" type="3005" element="_mzrPEK8XEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_m0lOAa8XEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m0lOAq8XEea-9Mvqish4kw"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_O4smkaqLEeawtcZCRnT3sg" fontName="Cantarell" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O4smkqqLEeawtcZCRnT3sg" x="60" y="180" width="97" height="67"/>
@@ -139,9 +139,9 @@
             <children xmi:type="notation:Node" xmi:id="_O4tNo6qLEeawtcZCRnT3sg" type="5002">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_O4tNpKqLEeawtcZCRnT3sg" x="1" y="15"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_shsnUKsxEeawtcZCRnT3sg" type="3005" element="_shfL8KsxEeawtcZCRnT3sg">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_shsnUasxEeawtcZCRnT3sg" fontName="Cantarell"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_shsnUqsxEeawtcZCRnT3sg"/>
+            <children xmi:type="notation:Node" xmi:id="_m0pfcK8XEea-9Mvqish4kw" type="3005" element="_mzsdMK8XEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_m0pfca8XEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m0pfcq8XEea-9Mvqish4kw"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_O4tNoaqLEeawtcZCRnT3sg" fontName="Cantarell" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O4tNoqqLEeawtcZCRnT3sg" x="336" y="180" width="97" height="67"/>
@@ -533,8 +533,8 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_shek4KsxEeawtcZCRnT3sg" showIcon="false" labelAlignment="RIGHT" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@style"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_mzrPEK8XEea-9Mvqish4kw" showIcon="false" labelAlignment="RIGHT" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@conditionnalStyles.0/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
       </ownedDiagramElements>
@@ -544,8 +544,8 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_shfL8KsxEeawtcZCRnT3sg" showIcon="false" labelAlignment="RIGHT" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@style"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_mzsdMK8XEea-9Mvqish4kw" showIcon="false" labelAlignment="RIGHT" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@conditionnalStyles.0/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
       </ownedDiagramElements>
