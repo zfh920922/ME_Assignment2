@@ -12,9 +12,710 @@
       </ownedAnnotationEntries>
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Zy-5MKKQEea9boJX0sSiyw" source="GMF_DIAGRAMS">
         <data xmi:type="notation:Diagram" xmi:id="_Zy-5MaKQEea9boJX0sSiyw" type="Sirius" element="_ZyOEMKKQEea9boJX0sSiyw" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_AAS0cK9YEea-9Mvqish4kw" type="2001" element="___rJYK9XEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AATbgK9YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AATbga9YEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAbXUK9YEea-9Mvqish4kw" type="3003" element="___rwcK9XEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAbXUa9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAbXUq9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAS0ca9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAS0cq9YEea-9Mvqish4kw" x="1752" y="576" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AATbgq9YEea-9Mvqish4kw" type="2001" element="___rwca9XEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AATbha9YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AATbhq9YEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAbXU69YEea-9Mvqish4kw" type="3003" element="___rwcq9XEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAbXVK9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAbXVa9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AATbg69YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AATbhK9YEea-9Mvqish4kw" x="984" y="336" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAUCkK9YEea-9Mvqish4kw" type="2001" element="___rwc69XEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAUCk69YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAUClK9YEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAb-YK9YEea-9Mvqish4kw" type="3003" element="___sXgK9XEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAb-Ya9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAb-Yq9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAUCka9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAUCkq9YEea-9Mvqish4kw" x="1500" y="96" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAUpoK9YEea-9Mvqish4kw" type="2001" element="___sXga9XEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAUpo69YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAUppK9YEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAb-Y69YEea-9Mvqish4kw" type="3003" element="___sXgq9XEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAb-ZK9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAb-Za9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAUpoa9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAUpoq9YEea-9Mvqish4kw" x="984" y="96" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAUppa9YEea-9Mvqish4kw" type="2001" element="___sXg69XEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAVQsK9YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAVQsa9YEea-9Mvqish4kw" x="-25" y="1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAclcK9YEea-9Mvqish4kw" type="3005" element="___7BAK9XEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAclca9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAclcq9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAUppq9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAUpp69YEea-9Mvqish4kw" x="1764" y="504" width="10" height="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAVQsq9YEea-9Mvqish4kw" type="2001" element="___7oEK9XEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAVQta9YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAVQtq9YEea-9Mvqish4kw" x="-25" y="1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAdMgK9YEea-9Mvqish4kw" type="3005" element="_AADj4K9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAdMga9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAdMgq9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAVQs69YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAVQtK9YEea-9Mvqish4kw" x="996" y="180" width="10" height="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAV3wK9YEea-9Mvqish4kw" type="2001" element="_AADj4a9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAV3w69YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAV3xK9YEea-9Mvqish4kw" x="-25" y="1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAdzkK9YEea-9Mvqish4kw" type="3005" element="_AAEK8K9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAdzka9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAdzkq9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAV3wa9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAV3wq9YEea-9Mvqish4kw" x="1248" y="180" width="10" height="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAV3xa9YEea-9Mvqish4kw" type="2001" element="_AAEyAK9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAWe0K9YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAWe0a9YEea-9Mvqish4kw" x="-25" y="1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAdzk69YEea-9Mvqish4kw" type="3005" element="_AAEyAa9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAdzlK9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAdzla9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAV3xq9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAV3x69YEea-9Mvqish4kw" x="1764" width="10" height="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAWe0q9YEea-9Mvqish4kw" type="2001" element="_AAFZEK9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAWe1a9YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAWe1q9YEea-9Mvqish4kw" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAeaoK9YEea-9Mvqish4kw" type="3005" element="_AAFZEa9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAeaoa9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAeaoq9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAWe069YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAWe1K9YEea-9Mvqish4kw" x="1044" y="432" width="1452" height="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAXF4K9YEea-9Mvqish4kw" type="2001" element="_AAFZEq9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAXF469YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAXF5K9YEea-9Mvqish4kw" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAfowK9YEea-9Mvqish4kw" type="3005" element="_AAGAIK9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAfowa9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAfowq9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAXF4a9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAXF4q9YEea-9Mvqish4kw" x="264" y="252" width="1452" height="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAXs8K9YEea-9Mvqish4kw" type="2001" element="_AAGAIa9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAYUAK9YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAYUAa9YEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAgP0K9YEea-9Mvqish4kw" type="3003" element="_AAK4oK9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAgP0a9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAgP0q9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAXs8a9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAXs8q9YEea-9Mvqish4kw" x="144" y="252" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAYUAq9YEea-9Mvqish4kw" type="2001" element="_AAK4oa9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAYUBa9YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAYUBq9YEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAg24K9YEea-9Mvqish4kw" type="3003" element="_AALfsK9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAg24a9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAg24q9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAYUA69YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAYUBK9YEea-9Mvqish4kw" x="1584" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAY7EK9YEea-9Mvqish4kw" type="2001" element="_AALfsa9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAY7E69YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAY7FK9YEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAg2469YEea-9Mvqish4kw" type="3003" element="_AALfsq9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAg25K9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAg25a9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAY7Ea9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAY7Eq9YEea-9Mvqish4kw" x="1500" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAZiIK9YEea-9Mvqish4kw" type="2001" element="_AAMGwK9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAZiI69YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAZiJK9YEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAhd8K9YEea-9Mvqish4kw" type="3003" element="_AAMGwa9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAhd8a9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAhd8q9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAZiIa9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAZiIq9YEea-9Mvqish4kw" x="1404" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAZiJa9YEea-9Mvqish4kw" type="2001" element="_AAMGwq9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAaJMK9YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAaJMa9YEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAhd869YEea-9Mvqish4kw" type="3003" element="_AAMt0K9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAhd9K9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAhd9a9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAZiJq9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAZiJ69YEea-9Mvqish4kw" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AAaJMq9YEea-9Mvqish4kw" type="2001" element="_AAMt0a9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAawQK9YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AAawQa9YEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAiFAK9YEea-9Mvqish4kw" type="3003" element="_AAMt0q9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AAiFAa9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAiFAq9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AAaJM69YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAaJNK9YEea-9Mvqish4kw" x="96" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CrUQQK9YEea-9Mvqish4kw" type="2001" element="_Cq6noK9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_CrU3UK9YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_CrU3Ua9YEea-9Mvqish4kw" x="-25" y="1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_CrVeYK9YEea-9Mvqish4kw" type="3005" element="_Cq71wK9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_CrVeYa9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CrVeYq9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_CrUQQa9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CrUQQq9YEea-9Mvqish4kw" x="2006" y="162" width="0" height="0"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_D1qjgK9YEea-9Mvqish4kw" type="2001" element="_D1VMUK9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_D1qjg69YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_D1qjhK9YEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_D1rKkK9YEea-9Mvqish4kw" type="3003" element="_D1VMUa9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_D1rKka9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1rKkq9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_D1qjga9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1qjgq9YEea-9Mvqish4kw" x="1499" y="214" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FDdMUK9YEea-9Mvqish4kw" type="2001" element="_FC82AK9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_FDdMU69YEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_FDdMVK9YEea-9Mvqish4kw" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_FDeacK9YEea-9Mvqish4kw" type="3005" element="_FC82Aa9YEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_FDeaca9YEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FDeacq9YEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FDdMUa9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FDdMUq9YEea-9Mvqish4kw" x="1345" y="352" width="1452" height="6"/>
+          </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_Zy-5MqKQEea9boJX0sSiyw"/>
+          <edges xmi:type="notation:Edge" xmi:id="_AAisEK9YEea-9Mvqish4kw" type="4001" element="_AAN78K9YEea-9Mvqish4kw" source="_AAS0cK9YEea-9Mvqish4kw" target="_AAUppa9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAisFK9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAisFa9YEea-9Mvqish4kw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAisFq9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAisF69YEea-9Mvqish4kw" y="1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAisGK9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAisGa9YEea-9Mvqish4kw" y="1"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AAisEa9YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AAisEq9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAisE69YEea-9Mvqish4kw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAjTIK9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAjTIa9YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AAjTIq9YEea-9Mvqish4kw" type="4001" element="_AAOjAK9YEea-9Mvqish4kw" source="_AAUppa9YEea-9Mvqish4kw" target="_AAWe0q9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAj6MK9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAj6Ma9YEea-9Mvqish4kw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAj6Mq9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAj6M69YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAj6NK9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAj6Na9YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AAjTI69YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AAjTJK9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAjTJa9YEea-9Mvqish4kw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAj6Nq9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAj6N69YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AAkhQK9YEea-9Mvqish4kw" type="4001" element="_AAOjA69YEea-9Mvqish4kw" source="_AAWe0q9YEea-9Mvqish4kw" target="_AATbgq9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAkhRK9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAkhRa9YEea-9Mvqish4kw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAkhRq9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAkhR69YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAkhSK9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAkhSa9YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AAkhQa9YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AAkhQq9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAkhQ69YEea-9Mvqish4kw" points="[0, 0, 771, 60]$[-771, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAlIUK9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAlIUa9YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AAlIUq9YEea-9Mvqish4kw" type="4001" element="_AAOjBq9YEea-9Mvqish4kw" source="_AATbgq9YEea-9Mvqish4kw" target="_AAXF4K9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAlIVq9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAlIV69YEea-9Mvqish4kw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAlIWK9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAlIWa9YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAlIWq9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAlIW69YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AAlIU69YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AAlIVK9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAlIVa9YEea-9Mvqish4kw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAlvYK9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAlvYa9YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AAlvYq9YEea-9Mvqish4kw" type="4001" element="_AAPKEq9YEea-9Mvqish4kw" source="_AAXF4K9YEea-9Mvqish4kw" target="_AAVQsq9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAlvZq9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAlvZ69YEea-9Mvqish4kw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAlvaK9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAlvaa9YEea-9Mvqish4kw" y="1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAlvaq9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAlva69YEea-9Mvqish4kw" y="1"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AAlvY69YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AAlvZK9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAlvZa9YEea-9Mvqish4kw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAmWcK9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAmWca9YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AAmWcq9YEea-9Mvqish4kw" type="4001" element="_AAPKFa9YEea-9Mvqish4kw" source="_AAVQsq9YEea-9Mvqish4kw" target="_AAUpoK9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAmWdq9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAmWd69YEea-9Mvqish4kw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAmWeK9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAmWea9YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAmWeq9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAmWe69YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AAmWc69YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AAmWdK9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAmWda9YEea-9Mvqish4kw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAm9gK9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAm9ga9YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AAm9gq9YEea-9Mvqish4kw" type="4001" element="_AAPxIK9YEea-9Mvqish4kw" source="_AAXF4K9YEea-9Mvqish4kw" target="_AAV3wK9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAm9hq9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAm9h69YEea-9Mvqish4kw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAnkkK9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAnkka9YEea-9Mvqish4kw" y="1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAnkkq9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAnkk69YEea-9Mvqish4kw" y="1"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AAm9g69YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AAm9hK9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAm9ha9YEea-9Mvqish4kw" points="[0, 0, -257, 60]$[257, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAnklK9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAnkla9YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AAnklq9YEea-9Mvqish4kw" type="4001" element="_AAPxI69YEea-9Mvqish4kw" source="_AAV3wK9YEea-9Mvqish4kw" target="_AAUCkK9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAoLoK9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAoLoa9YEea-9Mvqish4kw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAoLoq9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAoLo69YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAoLpK9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAoLpa9YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AAnkl69YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AAnkmK9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAnkma9YEea-9Mvqish4kw" points="[0, 0, -257, 60]$[257, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAoLpq9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAoLp69YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AAoLqK9YEea-9Mvqish4kw" type="4001" element="_AAPxJq9YEea-9Mvqish4kw" source="_AAUCkK9YEea-9Mvqish4kw" target="_AAV3xa9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAoysK9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAoysa9YEea-9Mvqish4kw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAoysq9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAoys69YEea-9Mvqish4kw" y="1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAoytK9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAoyta9YEea-9Mvqish4kw" y="1"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AAoLqa9YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AAoLqq9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAoLq69YEea-9Mvqish4kw" points="[0, 0, -257, 60]$[257, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAoytq9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAoyt69YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AAoyuK9YEea-9Mvqish4kw" type="4001" element="_AAQYMK9YEea-9Mvqish4kw" source="_AAV3xa9YEea-9Mvqish4kw" target="_AAWe0q9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AApZwK9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AApZwa9YEea-9Mvqish4kw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AApZwq9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AApZw69YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AApZxK9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AApZxa9YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AAoyua9YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AAoyuq9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAoyu69YEea-9Mvqish4kw" points="[0, 0, 0, -400]$[0, 400, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AApZxq9YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AApZx69YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AApZyK9YEea-9Mvqish4kw" type="4001" element="_AAQYM69YEea-9Mvqish4kw" source="_AATbgq9YEea-9Mvqish4kw" target="_AAXs8K9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAqA0K9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAqA0a9YEea-9Mvqish4kw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAqA0q9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAqA069YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAqA1K9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAqA1a9YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AApZya9YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AApZyq9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AApZy69YEea-9Mvqish4kw" points="[0, 0, 801, 60]$[-801, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAqA1q9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAqA169YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AAqA2K9YEea-9Mvqish4kw" type="4001" element="_AAQ_QK9YEea-9Mvqish4kw" source="_AAUCkK9YEea-9Mvqish4kw" target="_AAYUAq9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAqA3K9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAqA3a9YEea-9Mvqish4kw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAqn4K9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAqn4a9YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAqn4q9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAqn469YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AAqA2a9YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AAqA2q9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAqA269YEea-9Mvqish4kw" points="[0, 0, -90, 60]$[90, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAqn5K9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAqn5a9YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AAqn5q9YEea-9Mvqish4kw" type="4001" element="_AAQ_Q69YEea-9Mvqish4kw" source="_AAUCkK9YEea-9Mvqish4kw" target="_AAY7EK9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AAqn6q9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAqn669YEea-9Mvqish4kw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAqn7K9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAqn7a9YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AArO8K9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AArO8a9YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AAqn569YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AAqn6K9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AAqn6a9YEea-9Mvqish4kw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AArO8q9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AArO869YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_AArO9K9YEea-9Mvqish4kw" type="4001" element="_AAQ_Rq9YEea-9Mvqish4kw" source="_AAUCkK9YEea-9Mvqish4kw" target="_AAZiIK9YEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_AArO-K9YEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AArO-a9YEea-9Mvqish4kw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAr2AK9YEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAr2Aa9YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AAr2Aq9YEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AAr2A69YEea-9Mvqish4kw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_AArO9a9YEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_AArO9q9YEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AArO969YEea-9Mvqish4kw" points="[0, 0, 90, 60]$[-90, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAr2BK9YEea-9Mvqish4kw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AAr2Ba9YEea-9Mvqish4kw" id="(0.5,1.0)"/>
+          </edges>
         </data>
       </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="___rJYK9XEea-9Mvqish4kw" name="InitialStep" outgoingEdges="_AAN78K9YEea-9Mvqish4kw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.0"/>
+        <semanticElements xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="___rwcK9XEea-9Mvqish4kw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" borderLineStyle="dash" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="___rwca9XEea-9Mvqish4kw" name="FollowingLine" outgoingEdges="_AAOjBq9YEea-9Mvqish4kw _AAQYM69YEea-9Mvqish4kw" incomingEdges="_AAOjA69YEea-9Mvqish4kw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.1"/>
+        <semanticElements xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="___rwcq9XEea-9Mvqish4kw" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="___rwc69XEea-9Mvqish4kw" name="Reversing" outgoingEdges="_AAPxJq9YEea-9Mvqish4kw _AAQ_QK9YEea-9Mvqish4kw _AAQ_Q69YEea-9Mvqish4kw _AAQ_Rq9YEea-9Mvqish4kw" incomingEdges="_AAPxI69YEea-9Mvqish4kw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2"/>
+        <semanticElements xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="___sXgK9XEea-9Mvqish4kw" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="___sXga9XEea-9Mvqish4kw" name="TerminalStep" incomingEdges="_AAPKFa9YEea-9Mvqish4kw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.3"/>
+        <semanticElements xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.3"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="___sXgq9XEea-9Mvqish4kw" showIcon="false" borderSize="3" borderSizeComputationExpression="3" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']/@conditionnalStyles.1/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_D1VMUK9YEea-9Mvqish4kw" name="state" width="3" height="3" resizeKind="NSEW">
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_D1VMUa9YEea-9Mvqish4kw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" borderLineStyle="dash" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="___sXg69XEea-9Mvqish4kw" name="FollowLine" outgoingEdges="_AAOjAK9YEea-9Mvqish4kw" incomingEdges="_AAN78K9YEea-9Mvqish4kw" width="0" height="0" resizeKind="NSEW">
+        <target xmi:type="statesml:Transition" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.4"/>
+        <semanticElements xmi:type="statesml:Transition" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.4"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="___7BAK9XEea-9Mvqish4kw" showIcon="false" labelAlignment="RIGHT" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="___7oEK9XEea-9Mvqish4kw" name="Terminate triggered bySurfaceColorIsWhite" outgoingEdges="_AAPKFa9YEea-9Mvqish4kw" incomingEdges="_AAPKEq9YEea-9Mvqish4kw" width="0" height="0" resizeKind="NSEW">
+        <target xmi:type="statesml:Transition" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.5"/>
+        <semanticElements xmi:type="statesml:Transition" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.5"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_AADj4K9YEea-9Mvqish4kw" showIcon="false" labelAlignment="RIGHT" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_AADj4a9YEea-9Mvqish4kw" name="Reverse triggered bySurfaceColorIsRed" outgoingEdges="_AAPxI69YEea-9Mvqish4kw" incomingEdges="_AAPxIK9YEea-9Mvqish4kw" width="0" height="0" resizeKind="NSEW">
+        <target xmi:type="statesml:Transition" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.6"/>
+        <semanticElements xmi:type="statesml:Transition" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.6"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_AAEK8K9YEea-9Mvqish4kw" showIcon="false" labelAlignment="RIGHT" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_AAEyAK9YEea-9Mvqish4kw" name="RepeatFollowLineAfterReversing" outgoingEdges="_AAQYMK9YEea-9Mvqish4kw" incomingEdges="_AAPxJq9YEea-9Mvqish4kw" width="0" height="0" resizeKind="NSEW">
+        <target xmi:type="statesml:Transition" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.7"/>
+        <semanticElements xmi:type="statesml:Transition" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.7"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_AAEyAa9YEea-9Mvqish4kw" showIcon="false" labelAlignment="RIGHT" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Cq6noK9YEea-9Mvqish4kw" name="state" width="0" height="0" resizeKind="NSEW">
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Cq71wK9YEea-9Mvqish4kw" showIcon="false" labelAlignment="RIGHT" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_AAFZEK9YEea-9Mvqish4kw" name="ConvergeToFollowLine" outgoingEdges="_AAOjA69YEea-9Mvqish4kw" incomingEdges="_AAOjAK9YEea-9Mvqish4kw _AAQYMK9YEea-9Mvqish4kw" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="statesml:SelectionConvergence" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.8"/>
+        <semanticElements xmi:type="statesml:SelectionConvergence" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.8"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_AAFZEa9YEea-9Mvqish4kw" showIcon="false" workspacePath="/at.ac.tuwien.big.statesml.design/img/SelectionConDivergence.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='SelectionConvergence']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='SelectionConvergence']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_AAFZEq9YEea-9Mvqish4kw" name="DivergeAfterFollowLine" outgoingEdges="_AAPKEq9YEea-9Mvqish4kw _AAPxIK9YEea-9Mvqish4kw" incomingEdges="_AAOjBq9YEea-9Mvqish4kw" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="statesml:SelectionDivergence" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.9"/>
+        <semanticElements xmi:type="statesml:SelectionDivergence" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.9"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_AAGAIK9YEea-9Mvqish4kw" showIcon="false" workspacePath="/at.ac.tuwien.big.statesml.design/img/SelectionConDivergence.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='SelectionDivergence']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='SelectionDivergence']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FC82AK9YEea-9Mvqish4kw" name="state" width="-1" height="-1" resizeKind="NSEW">
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_FC82Aa9YEea-9Mvqish4kw" showIcon="false" workspacePath="/at.ac.tuwien.big.statesml.design/img/SelectionConDivergence.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='SelectionDivergence']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='SelectionDivergence']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_AAGAIa9YEea-9Mvqish4kw" name="followLine" incomingEdges="_AAQYM69YEea-9Mvqish4kw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.1/@actionSequence.0"/>
+        <semanticElements xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.1/@actionSequence.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_AAK4oK9YEea-9Mvqish4kw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_AAK4oa9YEea-9Mvqish4kw" name="pickDirection" incomingEdges="_AAQ_QK9YEea-9Mvqish4kw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2/@actionSequence.0"/>
+        <semanticElements xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2/@actionSequence.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_AALfsK9YEea-9Mvqish4kw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_AALfsa9YEea-9Mvqish4kw" name="shineLight" incomingEdges="_AAQ_Q69YEea-9Mvqish4kw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2/@actionSequence.1"/>
+        <semanticElements xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2/@actionSequence.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_AALfsq9YEea-9Mvqish4kw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_AAMGwK9YEea-9Mvqish4kw" name="incrementValue" incomingEdges="_AAQ_Rq9YEea-9Mvqish4kw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2/@actionSequence.2"/>
+        <semanticElements xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2/@actionSequence.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_AAMGwa9YEea-9Mvqish4kw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_AAMGwq9YEea-9Mvqish4kw" name="equals" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@processibleEvents.0/@changeExpression/@booleanFunctionCall"/>
+        <semanticElements xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@processibleEvents.0/@changeExpression/@booleanFunctionCall"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_AAMt0K9YEea-9Mvqish4kw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_AAMt0a9YEea-9Mvqish4kw" name="equals" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@processibleEvents.1/@changeExpression/@booleanFunctionCall"/>
+        <semanticElements xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@processibleEvents.1/@changeExpression/@booleanFunctionCall"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_AAMt0q9YEea-9Mvqish4kw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAN78K9YEea-9Mvqish4kw" sourceNode="___rJYK9XEea-9Mvqish4kw" targetNode="___sXg69XEea-9Mvqish4kw">
+        <target xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.0"/>
+        <semanticElements xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.0"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAN78a9YEea-9Mvqish4kw" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAN78q9YEea-9Mvqish4kw" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAOjAK9YEea-9Mvqish4kw" sourceNode="___sXg69XEea-9Mvqish4kw" targetNode="_AAFZEK9YEea-9Mvqish4kw">
+        <target xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.1"/>
+        <semanticElements xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAOjAa9YEea-9Mvqish4kw" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAOjAq9YEea-9Mvqish4kw" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAOjA69YEea-9Mvqish4kw" sourceNode="_AAFZEK9YEea-9Mvqish4kw" targetNode="___rwca9XEea-9Mvqish4kw">
+        <target xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.2"/>
+        <semanticElements xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAOjBK9YEea-9Mvqish4kw" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAOjBa9YEea-9Mvqish4kw" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAOjBq9YEea-9Mvqish4kw" sourceNode="___rwca9XEea-9Mvqish4kw" targetNode="_AAFZEq9YEea-9Mvqish4kw">
+        <target xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.3"/>
+        <semanticElements xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.3"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAPKEK9YEea-9Mvqish4kw" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAPKEa9YEea-9Mvqish4kw" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAPKEq9YEea-9Mvqish4kw" sourceNode="_AAFZEq9YEea-9Mvqish4kw" targetNode="___7oEK9XEea-9Mvqish4kw">
+        <target xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.4"/>
+        <semanticElements xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.4"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAPKE69YEea-9Mvqish4kw" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAPKFK9YEea-9Mvqish4kw" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAPKFa9YEea-9Mvqish4kw" sourceNode="___7oEK9XEea-9Mvqish4kw" targetNode="___sXga9XEea-9Mvqish4kw">
+        <target xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.5"/>
+        <semanticElements xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.5"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAPKFq9YEea-9Mvqish4kw" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAPKF69YEea-9Mvqish4kw" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAPxIK9YEea-9Mvqish4kw" sourceNode="_AAFZEq9YEea-9Mvqish4kw" targetNode="_AADj4a9YEea-9Mvqish4kw">
+        <target xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.6"/>
+        <semanticElements xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.6"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAPxIa9YEea-9Mvqish4kw" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAPxIq9YEea-9Mvqish4kw" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAPxI69YEea-9Mvqish4kw" sourceNode="_AADj4a9YEea-9Mvqish4kw" targetNode="___rwc69XEea-9Mvqish4kw">
+        <target xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.7"/>
+        <semanticElements xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.7"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAPxJK9YEea-9Mvqish4kw" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAPxJa9YEea-9Mvqish4kw" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAPxJq9YEea-9Mvqish4kw" sourceNode="___rwc69XEea-9Mvqish4kw" targetNode="_AAEyAK9YEea-9Mvqish4kw">
+        <target xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.8"/>
+        <semanticElements xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.8"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAPxJ69YEea-9Mvqish4kw" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAPxKK9YEea-9Mvqish4kw" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAQYMK9YEea-9Mvqish4kw" sourceNode="_AAEyAK9YEea-9Mvqish4kw" targetNode="_AAFZEK9YEea-9Mvqish4kw">
+        <target xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.9"/>
+        <semanticElements xmi:type="statesml:Edge" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@edges.9"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAQYMa9YEea-9Mvqish4kw" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAQYMq9YEea-9Mvqish4kw" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAQYM69YEea-9Mvqish4kw" sourceNode="___rwca9XEea-9Mvqish4kw" targetNode="_AAGAIa9YEea-9Mvqish4kw">
+        <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAQYNK9YEea-9Mvqish4kw" targetArrow="NoDecoration" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAQYNa9YEea-9Mvqish4kw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAQ_QK9YEea-9Mvqish4kw" sourceNode="___rwc69XEea-9Mvqish4kw" targetNode="_AAK4oa9YEea-9Mvqish4kw">
+        <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAQ_Qa9YEea-9Mvqish4kw" targetArrow="NoDecoration" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAQ_Qq9YEea-9Mvqish4kw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAQ_Q69YEea-9Mvqish4kw" sourceNode="___rwc69XEea-9Mvqish4kw" targetNode="_AALfsa9YEea-9Mvqish4kw">
+        <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAQ_RK9YEea-9Mvqish4kw" targetArrow="NoDecoration" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAQ_Ra9YEea-9Mvqish4kw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AAQ_Rq9YEea-9Mvqish4kw" sourceNode="___rwc69XEea-9Mvqish4kw" targetNode="_AAMGwK9YEea-9Mvqish4kw">
+        <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AAQ_R69YEea-9Mvqish4kw" targetArrow="NoDecoration" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AAQ_SK9YEea-9Mvqish4kw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']"/>
+      </ownedDiagramElements>
       <description xmi:type="description_1:DiagramDescription" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']"/>
       <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_ZyOrQqKQEea9boJX0sSiyw"/>
       <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer"/>
@@ -117,9 +818,9 @@
             <children xmi:type="notation:Node" xmi:id="_O4r_gKqLEeawtcZCRnT3sg" type="5002">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_O4r_gaqLEeawtcZCRnT3sg" x="98"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_YL4X4K8aEea-9Mvqish4kw" type="3005" element="_YLqVcK8aEea-9Mvqish4kw">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_YL4X4a8aEea-9Mvqish4kw" fontName="Cantarell"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YL4X4q8aEea-9Mvqish4kw"/>
+            <children xmi:type="notation:Node" xmi:id="_A6rsAK9LEea-9Mvqish4kw" type="3005" element="_A6Q1QK9LEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_A6rsAa9LEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A6rsAq9LEea-9Mvqish4kw"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_O4qxYaqLEeawtcZCRnT3sg" fontName="Cantarell" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O4qxYqqLEeawtcZCRnT3sg" x="194" y="-84" width="97" height="14"/>
@@ -200,6 +901,50 @@
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_bIE-RqzgEeaFU9Ce7w_ERQ" fontName="Cantarell" fontHeight="10"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bIE-R6zgEeaFU9Ce7w_ERQ" x="12" y="168" width="97" height="61"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dBUeMK9ZEea-9Mvqish4kw" type="2001" element="_dBNwgK9ZEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_dBVFQK9ZEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dBVFQa9ZEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dBWTYK9ZEea-9Mvqish4kw" type="3003" element="_dBO-oK9ZEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_dBWTYa9ZEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBWTYq9ZEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dBUeMa9ZEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBUeMq9ZEea-9Mvqish4kw" x="360" y="12" width="109" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dBVFQq9ZEea-9Mvqish4kw" type="2001" element="_dBPlsK9ZEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_dBVFRa9ZEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dBVFRq9ZEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dBWTY69ZEea-9Mvqish4kw" type="3003" element="_dBPlsa9ZEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_dBWTZK9ZEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBWTZa9ZEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dBVFQ69ZEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBVFRK9ZEea-9Mvqish4kw" x="528" y="139" width="73" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dBVsUK9ZEea-9Mvqish4kw" type="2001" element="_dBQMwK9ZEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_dBVsU69ZEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dBVsVK9ZEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dBWTZq9ZEea-9Mvqish4kw" type="3003" element="_dBQMwa9ZEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_dBWTZ69ZEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBWTaK9ZEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dBVsUa9ZEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBVsUq9ZEea-9Mvqish4kw" x="528" y="180" width="73" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dBVsVa9ZEea-9Mvqish4kw" type="2001" element="_dBQMwq9ZEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_dBVsWK9ZEea-9Mvqish4kw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dBVsWa9ZEea-9Mvqish4kw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dBWTaa9ZEea-9Mvqish4kw" type="3003" element="_dBQz0K9ZEea-9Mvqish4kw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_dBWTaq9ZEea-9Mvqish4kw" fontName="Cantarell"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBWTa69ZEea-9Mvqish4kw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dBVsVq9ZEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBVsV69ZEea-9Mvqish4kw" x="528" y="216" width="73" height="30"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_35MMpqqEEeawtcZCRnT3sg"/>
           <edges xmi:type="notation:Edge" xmi:id="_kIvsMKvdEeaFU9Ce7w_ERQ" type="4001" element="_kEdpIKvdEeaFU9Ce7w_ERQ" source="_O4qxYKqLEeawtcZCRnT3sg" target="_krLNsKqGEeawtcZCRnT3sg">
@@ -362,6 +1107,70 @@
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bIM6FqzgEeaFU9Ce7w_ERQ" id="(0.5229357798165137,0.9672131147540983)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bIM6F6zgEeaFU9Ce7w_ERQ" id="(0.4948453608247423,0.0)"/>
           </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_dBW6cK9ZEea-9Mvqish4kw" type="4001" element="_dBSB8K9ZEea-9Mvqish4kw" source="_bIEXNazgEeaFU9Ce7w_ERQ" target="_dBUeMK9ZEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_dBW6dK9ZEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBW6da9ZEea-9Mvqish4kw" x="-10" y="-5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dBW6dq9ZEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBW6d69ZEea-9Mvqish4kw" x="8" y="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dBW6eK9ZEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBW6ea9ZEea-9Mvqish4kw" x="7" y="2"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_dBW6ca9ZEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_dBW6cq9ZEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dBW6c69ZEea-9Mvqish4kw" points="[1, 1, -56, 1]$[55, 1, -2, 1]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dBW6eq9ZEea-9Mvqish4kw" id="(0.9920634920634921,0.5081967213114754)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dBXhgK9ZEea-9Mvqish4kw" id="(0.01834862385321101,0.6333333333333333)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_dBXhga9ZEea-9Mvqish4kw" type="4001" element="_dBSB869ZEea-9Mvqish4kw" source="_bIE-QKzgEeaFU9Ce7w_ERQ" target="_dBVFQq9ZEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_dBXhha9ZEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBXhhq9ZEea-9Mvqish4kw" x="-5" y="9"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dBXhh69ZEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBXhiK9ZEea-9Mvqish4kw" x="3" y="-9"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dBXhia9ZEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBXhiq9ZEea-9Mvqish4kw" x="4" y="-10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_dBXhgq9ZEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_dBXhg69ZEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dBXhhK9ZEea-9Mvqish4kw" points="[0, 0, -159, -1]$[144, 0, -15, -1]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dBXhi69ZEea-9Mvqish4kw" id="(0.4954128440366973,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dBXhjK9ZEea-9Mvqish4kw" id="(0.2054794520547945,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_dBXhja9ZEea-9Mvqish4kw" type="4001" element="_dBSpAK9ZEea-9Mvqish4kw" source="_bIE-QKzgEeaFU9Ce7w_ERQ" target="_dBVsUK9ZEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_dBXhka9ZEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBXhkq9ZEea-9Mvqish4kw" x="-3" y="9"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dBXhk69ZEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBXhlK9ZEea-9Mvqish4kw" x="1" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dBXhla9ZEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBXhlq9ZEea-9Mvqish4kw" x="2" y="-10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_dBXhjq9ZEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_dBXhj69ZEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dBXhkK9ZEea-9Mvqish4kw" points="[55, 6, -104, -36]$[144, 36, -15, -6]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dBXhl69ZEea-9Mvqish4kw" id="(0.4954128440366973,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dBYIkK9ZEea-9Mvqish4kw" id="(0.2054794520547945,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_dBYIka9ZEea-9Mvqish4kw" type="4001" element="_dBSpA69ZEea-9Mvqish4kw" source="_bIE-QKzgEeaFU9Ce7w_ERQ" target="_dBVsVa9ZEea-9Mvqish4kw">
+            <children xmi:type="notation:Node" xmi:id="_dBYIla9ZEea-9Mvqish4kw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBYIlq9ZEea-9Mvqish4kw" x="1" y="9"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dBYIl69ZEea-9Mvqish4kw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBYImK9ZEea-9Mvqish4kw" x="-2" y="-9"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dBYIma9ZEea-9Mvqish4kw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dBYImq9ZEea-9Mvqish4kw" x="-1" y="-9"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_dBYIkq9ZEea-9Mvqish4kw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_dBYIk69ZEea-9Mvqish4kw" fontName="Cantarell" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dBYIlK9ZEea-9Mvqish4kw" points="[0, 0, -159, -78]$[144, 70, -15, -8]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dBYIm69ZEea-9Mvqish4kw" id="(0.4954128440366973,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dBYInK9ZEea-9Mvqish4kw" id="(0.2054794520547945,1.0)"/>
+          </edges>
         </data>
       </ownedAnnotationEntries>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_koefAKqGEeawtcZCRnT3sg" name="ConvergeToFollowLine" outgoingEdges="_bH-3oKzgEeaFU9Ce7w_ERQ" incomingEdges="_kEdpIKvdEeaFU9Ce7w_ERQ _kEjvwKvdEeaFU9Ce7w_ERQ" width="-1" height="-1" resizeKind="NSEW">
@@ -392,7 +1201,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_YLqVcK8aEea-9Mvqish4kw" showIcon="false" labelAlignment="RIGHT" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_A6Q1QK9LEea-9Mvqish4kw" showIcon="false" labelAlignment="RIGHT" workspacePath="/at.ac.tuwien.big.statesml.design/img/StateTransition.png">
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']/@conditionnalStyles.0/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='Transition']"/>
@@ -477,7 +1286,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_bH0fkqzgEeaFU9Ce7w_ERQ" name="FollowingLine" outgoingEdges="_bH-3o6zgEeaFU9Ce7w_ERQ" incomingEdges="_bH-3oKzgEeaFU9Ce7w_ERQ" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_bH0fkqzgEeaFU9Ce7w_ERQ" name="FollowingLine" outgoingEdges="_bH-3o6zgEeaFU9Ce7w_ERQ _dBSB8K9ZEea-9Mvqish4kw" incomingEdges="_bH-3oKzgEeaFU9Ce7w_ERQ" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.1"/>
         <semanticElements xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.1"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -488,7 +1297,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_bH1GoazgEeaFU9Ce7w_ERQ" name="Reversing" outgoingEdges="_bH_etazgEeaFU9Ce7w_ERQ" incomingEdges="_bH_esqzgEeaFU9Ce7w_ERQ" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_bH1GoazgEeaFU9Ce7w_ERQ" name="Reversing" outgoingEdges="_bH_etazgEeaFU9Ce7w_ERQ _dBSB869ZEea-9Mvqish4kw _dBSpAK9ZEea-9Mvqish4kw _dBSpA69ZEea-9Mvqish4kw" incomingEdges="_bH_esqzgEeaFU9Ce7w_ERQ" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2"/>
         <semanticElements xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -563,6 +1372,82 @@
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_bH_et6zgEeaFU9Ce7w_ERQ" showIcon="false"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='NodeEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dBNwgK9ZEea-9Mvqish4kw" name="followLine" incomingEdges="_dBSB8K9ZEea-9Mvqish4kw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.1/@actionSequence.0"/>
+        <semanticElements xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.1/@actionSequence.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_dBO-oK9ZEea-9Mvqish4kw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dBPlsK9ZEea-9Mvqish4kw" name="pickDirection" incomingEdges="_dBSB869ZEea-9Mvqish4kw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2/@actionSequence.0"/>
+        <semanticElements xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2/@actionSequence.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_dBPlsa9ZEea-9Mvqish4kw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dBQMwK9ZEea-9Mvqish4kw" name="shineLight" incomingEdges="_dBSpAK9ZEea-9Mvqish4kw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2/@actionSequence.1"/>
+        <semanticElements xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2/@actionSequence.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_dBQMwa9ZEea-9Mvqish4kw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dBQMwq9ZEea-9Mvqish4kw" name="incrementValue" incomingEdges="_dBSpA69ZEea-9Mvqish4kw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2/@actionSequence.2"/>
+        <semanticElements xmi:type="statesml:FunctionCall" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2/@actionSequence.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_dBQz0K9ZEea-9Mvqish4kw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,102,255" labelPosition="node" color="235,233,215">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='FunctionCall']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_dBSB8K9ZEea-9Mvqish4kw" sourceNode="_bH0fkqzgEeaFU9Ce7w_ERQ" targetNode="_dBNwgK9ZEea-9Mvqish4kw">
+        <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_dBSB8a9ZEea-9Mvqish4kw" targetArrow="NoDecoration" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_dBSB8q9ZEea-9Mvqish4kw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_dBSB869ZEea-9Mvqish4kw" sourceNode="_bH1GoazgEeaFU9Ce7w_ERQ" targetNode="_dBPlsK9ZEea-9Mvqish4kw">
+        <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_dBSB9K9ZEea-9Mvqish4kw" targetArrow="NoDecoration" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_dBSB9a9ZEea-9Mvqish4kw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_dBSpAK9ZEea-9Mvqish4kw" sourceNode="_bH1GoazgEeaFU9Ce7w_ERQ" targetNode="_dBQMwK9ZEea-9Mvqish4kw">
+        <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_dBSpAa9ZEea-9Mvqish4kw" targetArrow="NoDecoration" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_dBSpAq9ZEea-9Mvqish4kw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_dBSpA69ZEea-9Mvqish4kw" sourceNode="_bH1GoazgEeaFU9Ce7w_ERQ" targetNode="_dBQMwq9ZEea-9Mvqish4kw">
+        <target xmi:type="statesml:State" href="simpleLineFollowing/LineFollowingBehavior.statesml#//@nodes.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_dBSpBK9ZEea-9Mvqish4kw" targetArrow="NoDecoration" size="2" strokeColor="0,102,255">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_dBSpBa9ZEea-9Mvqish4kw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@edgeMappings[name='FunctionEdge']"/>
       </ownedDiagramElements>
       <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/at.ac.tuwien.big.statesml.design/description/statesml.odesign#//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']"/>
       <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_35MMo6qEEeawtcZCRnT3sg"/>
