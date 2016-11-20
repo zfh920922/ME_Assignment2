@@ -43,7 +43,7 @@
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="FunctionCall" domainClass="statesml.FunctionCall">
+        <nodeMappings name="FunctionCall" semanticCandidatesExpression="feature:actionSequence" domainClass="statesml.FunctionCall">
           <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" borderColor="//@userColorsPalettes[name='StateML%20Colors']/@entries[name='statesml_bordercolor']" showIcon="false" labelExpression="[self.function.name/]" labelPosition="node" resizeKind="NSEW" color="//@userColorsPalettes[name='StateML%20Colors']/@entries[name='statesml_backgroundcolor']">
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
@@ -70,29 +70,31 @@
               <initialOperation>
                 <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
                   <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.State" referenceName="nodes">
-                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[/state]"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="['state'/]"/>
                   </subModelOperations>
                 </firstModelOperations>
               </initialOperation>
             </tools>
-            <tools xsi:type="tool:NodeCreationDescription" name="InitialState" precondition="feature:initial" nodeMappings="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']" iconPath="/org.eclipse.uml2.uml.edit/icons/full/obj16/InitialNode.gif">
+            <tools xsi:type="tool:NodeCreationDescription" name="InitialState" nodeMappings="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']" iconPath="/org.eclipse.uml2.uml.edit/icons/full/obj16/InitialNode.gif">
               <variable name="container"/>
               <viewVariable name="containerView"/>
               <initialOperation>
                 <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
                   <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.State" referenceName="nodes">
-                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[/state]"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="['state'/]"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="initial" valueExpression="true"/>
                   </subModelOperations>
                 </firstModelOperations>
               </initialOperation>
             </tools>
-            <tools xsi:type="tool:NodeCreationDescription" name="Terminal State" precondition="feature:terminal" nodeMappings="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']">
+            <tools xsi:type="tool:NodeCreationDescription" name="Terminal State" nodeMappings="//@ownedViewpoints[name='StatesML']/@ownedRepresentations[name='State%20System%20Diagram']/@defaultLayer/@nodeMappings[name='State']">
               <variable name="container"/>
               <viewVariable name="containerView"/>
               <initialOperation>
                 <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
                   <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.State" referenceName="nodes">
-                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[/state]"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="['state'/]"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="terminal" valueExpression="true"/>
                   </subModelOperations>
                 </firstModelOperations>
               </initialOperation>
@@ -103,8 +105,8 @@
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
-                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.State" referenceName="nodes">
-                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[/state]"/>
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.Transition" referenceName="nodes">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="['state'/]"/>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
@@ -114,8 +116,8 @@
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
-                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.State" referenceName="nodes">
-                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[/state]"/>
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.SelectionConvergence" referenceName="nodes">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="['state'/]"/>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
@@ -125,8 +127,8 @@
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
-                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.State" referenceName="nodes">
-                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[/state]"/>
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="statesml.SelectionDivergence" referenceName="nodes">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="['state'/]"/>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
