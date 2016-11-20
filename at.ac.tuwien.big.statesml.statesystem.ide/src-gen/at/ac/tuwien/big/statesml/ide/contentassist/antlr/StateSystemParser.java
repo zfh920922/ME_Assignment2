@@ -35,7 +35,6 @@ public class StateSystemParser extends AbstractContentAssistParser {
 			nameMappings = new HashMap<AbstractElement, String>() {
 				private static final long serialVersionUID = 1L;
 				{
-					put(grammarAccess.getNodeAccess().getAlternatives(), "rule__Node__Alternatives");
 					put(grammarAccess.getControlAccess().getAlternatives(), "rule__Control__Alternatives");
 					put(grammarAccess.getStateAccess().getAlternatives(), "rule__State__Alternatives");
 					put(grammarAccess.getStateAccess().getAlternatives_0_0(), "rule__State__Alternatives_0_0");
@@ -50,7 +49,6 @@ public class StateSystemParser extends AbstractContentAssistParser {
 					put(grammarAccess.getStateSystemAccess().getGroup_2(), "rule__StateSystem__Group_2__0");
 					put(grammarAccess.getStateSystemAccess().getGroup_2_0(), "rule__StateSystem__Group_2_0__0");
 					put(grammarAccess.getStateSystemAccess().getGroup_2_1(), "rule__StateSystem__Group_2_1__0");
-					put(grammarAccess.getNodeAccess().getGroup_0(), "rule__Node__Group_0__0");
 					put(grammarAccess.getEdgeAccess().getGroup(), "rule__Edge__Group__0");
 					put(grammarAccess.getEdgeAccess().getGroup_0(), "rule__Edge__Group_0__0");
 					put(grammarAccess.getControlAccess().getGroup_0(), "rule__Control__Group_0__0");

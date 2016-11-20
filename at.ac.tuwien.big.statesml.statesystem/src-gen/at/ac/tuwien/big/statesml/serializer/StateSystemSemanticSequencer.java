@@ -369,8 +369,9 @@ public class StateSystemSemanticSequencer extends AbstractDelegatingSemanticSequ
 	 *
 	 * Constraint:
 	 *     (
-	 *         (nodes+=Node | nodes+=Control | edges+=Edge)? 
-	 *         (name=ID systemUnit=[SystemUnit|QualifiedName] attributes+=Attribute* processibleEvents+=ChangeEvent* nodes+=Node+)?
+	 *         (name=ID systemUnit=[SystemUnit|QualifiedName] attributes+=Attribute* processibleEvents+=ChangeEvent* nodes+=State+) | 
+	 *         nodes+=Transition | 
+	 *         (nodes+=Control* edges+=Edge)
 	 *     )+
 	 */
 	protected void sequence_StateSystem(ISerializationContext context, StateSystem semanticObject) {
@@ -380,7 +381,6 @@ public class StateSystemSemanticSequencer extends AbstractDelegatingSemanticSequ
 	
 	/**
 	 * Contexts:
-	 *     Node returns State
 	 *     State returns State
 	 *
 	 * Constraint:
@@ -424,7 +424,6 @@ public class StateSystemSemanticSequencer extends AbstractDelegatingSemanticSequ
 	
 	/**
 	 * Contexts:
-	 *     Node returns Transition
 	 *     Transition returns Transition
 	 *
 	 * Constraint:

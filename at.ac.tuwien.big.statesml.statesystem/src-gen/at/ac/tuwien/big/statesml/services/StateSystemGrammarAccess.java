@@ -55,13 +55,13 @@ public class StateSystemGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cStatesKeyword_0_7_0 = (Keyword)cGroup_0_7.eContents().get(0);
 		private final Keyword cLeftCurlyBracketKeyword_0_7_1 = (Keyword)cGroup_0_7.eContents().get(1);
 		private final Assignment cNodesAssignment_0_7_2 = (Assignment)cGroup_0_7.eContents().get(2);
-		private final RuleCall cNodesNodeParserRuleCall_0_7_2_0 = (RuleCall)cNodesAssignment_0_7_2.eContents().get(0);
+		private final RuleCall cNodesStateParserRuleCall_0_7_2_0 = (RuleCall)cNodesAssignment_0_7_2.eContents().get(0);
 		private final Keyword cRightCurlyBracketKeyword_0_7_3 = (Keyword)cGroup_0_7.eContents().get(3);
 		private final Group cGroup_1 = (Group)cUnorderedGroup.eContents().get(1);
 		private final Keyword cTransitionsKeyword_1_0 = (Keyword)cGroup_1.eContents().get(0);
 		private final Keyword cLeftCurlyBracketKeyword_1_1 = (Keyword)cGroup_1.eContents().get(1);
 		private final Assignment cNodesAssignment_1_2 = (Assignment)cGroup_1.eContents().get(2);
-		private final RuleCall cNodesNodeParserRuleCall_1_2_0 = (RuleCall)cNodesAssignment_1_2.eContents().get(0);
+		private final RuleCall cNodesTransitionParserRuleCall_1_2_0 = (RuleCall)cNodesAssignment_1_2.eContents().get(0);
 		private final Keyword cRightCurlyBracketKeyword_1_3 = (Keyword)cGroup_1.eContents().get(3);
 		private final Group cGroup_2 = (Group)cUnorderedGroup.eContents().get(2);
 		private final Group cGroup_2_0 = (Group)cGroup_2.eContents().get(0);
@@ -80,20 +80,19 @@ public class StateSystemGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//// TODO: Extend the Xtext grammar
 		//StateSystem:
-		//	'statesystem' name=ID 'for' systemUnit=[SystemUnit|QualifiedName]
-		//	'{' ('attributes' '{' attributes+=Attribute+ '}')? ('events' '{' processibleEvents+=ChangeEvent+ '}')? ('states' '{'
-		//	nodes+=Node+ '}') & 'transitions' '{' nodes+=Node+ '}' & ('control' '{' nodes+=Control+ '}')? ('edges' '{'
-		//	edges+=Edge+ '}')?
+		//	'statesystem' name=ID 'for' systemUnit=[SystemUnit|QualifiedName] '{' ('attributes' '{' attributes+=Attribute+ '}')?
+		//	('events' '{' processibleEvents+=ChangeEvent+ '}')? ('states' '{' nodes+=State+ '}') & 'transitions' '{'
+		//	nodes+=Transition+ '}' & ('control' '{' nodes+=Control+ '}')? ('edges' '{' edges+=Edge+ '}')
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
 		//'statesystem' name=ID 'for' systemUnit=[SystemUnit|QualifiedName] '{' ('attributes' '{' attributes+=Attribute+ '}')?
-		//('events' '{' processibleEvents+=ChangeEvent+ '}')? ('states' '{' nodes+=Node+ '}') & 'transitions' '{' nodes+=Node+
-		//'}' & ('control' '{' nodes+=Control+ '}')? ('edges' '{' edges+=Edge+ '}')? '}'
+		//('events' '{' processibleEvents+=ChangeEvent+ '}')? ('states' '{' nodes+=State+ '}') & 'transitions' '{'
+		//nodes+=Transition+ '}' & ('control' '{' nodes+=Control+ '}')? ('edges' '{' edges+=Edge+ '}') '}'
 		public UnorderedGroup getUnorderedGroup() { return cUnorderedGroup; }
 		
 		//'statesystem' name=ID 'for' systemUnit=[SystemUnit|QualifiedName] '{' ('attributes' '{' attributes+=Attribute+ '}')?
-		//('events' '{' processibleEvents+=ChangeEvent+ '}')? ('states' '{' nodes+=Node+ '}')
+		//('events' '{' processibleEvents+=ChangeEvent+ '}')? ('states' '{' nodes+=State+ '}')
 		public Group getGroup_0() { return cGroup_0; }
 		
 		//'statesystem'
@@ -156,7 +155,7 @@ public class StateSystemGrammarAccess extends AbstractGrammarElementFinder {
 		//'}'
 		public Keyword getRightCurlyBracketKeyword_0_6_3() { return cRightCurlyBracketKeyword_0_6_3; }
 		
-		//('states' '{' nodes+=Node+ '}')
+		//('states' '{' nodes+=State+ '}')
 		public Group getGroup_0_7() { return cGroup_0_7; }
 		
 		//'states'
@@ -165,16 +164,16 @@ public class StateSystemGrammarAccess extends AbstractGrammarElementFinder {
 		//'{'
 		public Keyword getLeftCurlyBracketKeyword_0_7_1() { return cLeftCurlyBracketKeyword_0_7_1; }
 		
-		//nodes+=Node+
+		//nodes+=State+
 		public Assignment getNodesAssignment_0_7_2() { return cNodesAssignment_0_7_2; }
 		
-		//Node
-		public RuleCall getNodesNodeParserRuleCall_0_7_2_0() { return cNodesNodeParserRuleCall_0_7_2_0; }
+		//State
+		public RuleCall getNodesStateParserRuleCall_0_7_2_0() { return cNodesStateParserRuleCall_0_7_2_0; }
 		
 		//'}'
 		public Keyword getRightCurlyBracketKeyword_0_7_3() { return cRightCurlyBracketKeyword_0_7_3; }
 		
-		//'transitions' '{' nodes+=Node+ '}'
+		//'transitions' '{' nodes+=Transition+ '}'
 		public Group getGroup_1() { return cGroup_1; }
 		
 		//'transitions'
@@ -183,16 +182,16 @@ public class StateSystemGrammarAccess extends AbstractGrammarElementFinder {
 		//'{'
 		public Keyword getLeftCurlyBracketKeyword_1_1() { return cLeftCurlyBracketKeyword_1_1; }
 		
-		//nodes+=Node+
+		//nodes+=Transition+
 		public Assignment getNodesAssignment_1_2() { return cNodesAssignment_1_2; }
 		
-		//Node
-		public RuleCall getNodesNodeParserRuleCall_1_2_0() { return cNodesNodeParserRuleCall_1_2_0; }
+		//Transition
+		public RuleCall getNodesTransitionParserRuleCall_1_2_0() { return cNodesTransitionParserRuleCall_1_2_0; }
 		
 		//'}'
 		public Keyword getRightCurlyBracketKeyword_1_3() { return cRightCurlyBracketKeyword_1_3; }
 		
-		//('control' '{' nodes+=Control+ '}')? ('edges' '{' edges+=Edge+ '}')? '}'
+		//('control' '{' nodes+=Control+ '}')? ('edges' '{' edges+=Edge+ '}') '}'
 		public Group getGroup_2() { return cGroup_2; }
 		
 		//('control' '{' nodes+=Control+ '}')?
@@ -213,7 +212,7 @@ public class StateSystemGrammarAccess extends AbstractGrammarElementFinder {
 		//'}'
 		public Keyword getRightCurlyBracketKeyword_2_0_3() { return cRightCurlyBracketKeyword_2_0_3; }
 		
-		//('edges' '{' edges+=Edge+ '}')?
+		//('edges' '{' edges+=Edge+ '}')
 		public Group getGroup_2_1() { return cGroup_2_1; }
 		
 		//'edges'
@@ -233,33 +232,6 @@ public class StateSystemGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'}'
 		public Keyword getRightCurlyBracketKeyword_2_2() { return cRightCurlyBracketKeyword_2_2; }
-	}
-	public class NodeElements extends AbstractParserRuleElementFinder {
-		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "at.ac.tuwien.big.statesml.StateSystem.Node");
-		private final Alternatives cAlternatives = (Alternatives)rule.eContents().get(1);
-		private final Group cGroup_0 = (Group)cAlternatives.eContents().get(0);
-		private final Keyword cSKeyword_0_0 = (Keyword)cGroup_0.eContents().get(0);
-		private final RuleCall cStateParserRuleCall_0_1 = (RuleCall)cGroup_0.eContents().get(1);
-		private final RuleCall cTransitionParserRuleCall_1 = (RuleCall)cAlternatives.eContents().get(1);
-		
-		//Node:
-		//	's' State | Transition;
-		@Override public ParserRule getRule() { return rule; }
-		
-		//'s' State | Transition
-		public Alternatives getAlternatives() { return cAlternatives; }
-		
-		//'s' State
-		public Group getGroup_0() { return cGroup_0; }
-		
-		//'s'
-		public Keyword getSKeyword_0_0() { return cSKeyword_0_0; }
-		
-		//State
-		public RuleCall getStateParserRuleCall_0_1() { return cStateParserRuleCall_0_1; }
-		
-		//Transition
-		public RuleCall getTransitionParserRuleCall_1() { return cTransitionParserRuleCall_1; }
 	}
 	public class EdgeElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "at.ac.tuwien.big.statesml.StateSystem.Edge");
@@ -971,7 +943,6 @@ public class StateSystemGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	private final StateSystemElements pStateSystem;
-	private final NodeElements pNode;
 	private final EdgeElements pEdge;
 	private final ControlElements pControl;
 	private final SelectionConvergenceElements pSelectionConvergence;
@@ -1008,7 +979,6 @@ public class StateSystemGrammarAccess extends AbstractGrammarElementFinder {
 		this.grammar = internalFindGrammar(grammarProvider);
 		this.gaTerminals = gaTerminals;
 		this.pStateSystem = new StateSystemElements();
-		this.pNode = new NodeElements();
 		this.pEdge = new EdgeElements();
 		this.pControl = new ControlElements();
 		this.pSelectionConvergence = new SelectionConvergenceElements();
@@ -1065,10 +1035,9 @@ public class StateSystemGrammarAccess extends AbstractGrammarElementFinder {
 	
 	//// TODO: Extend the Xtext grammar
 	//StateSystem:
-	//	'statesystem' name=ID 'for' systemUnit=[SystemUnit|QualifiedName]
-	//	'{' ('attributes' '{' attributes+=Attribute+ '}')? ('events' '{' processibleEvents+=ChangeEvent+ '}')? ('states' '{'
-	//	nodes+=Node+ '}') & 'transitions' '{' nodes+=Node+ '}' & ('control' '{' nodes+=Control+ '}')? ('edges' '{'
-	//	edges+=Edge+ '}')?
+	//	'statesystem' name=ID 'for' systemUnit=[SystemUnit|QualifiedName] '{' ('attributes' '{' attributes+=Attribute+ '}')?
+	//	('events' '{' processibleEvents+=ChangeEvent+ '}')? ('states' '{' nodes+=State+ '}') & 'transitions' '{'
+	//	nodes+=Transition+ '}' & ('control' '{' nodes+=Control+ '}')? ('edges' '{' edges+=Edge+ '}')
 	//	'}';
 	public StateSystemElements getStateSystemAccess() {
 		return pStateSystem;
@@ -1076,16 +1045,6 @@ public class StateSystemGrammarAccess extends AbstractGrammarElementFinder {
 	
 	public ParserRule getStateSystemRule() {
 		return getStateSystemAccess().getRule();
-	}
-	
-	//Node:
-	//	's' State | Transition;
-	public NodeElements getNodeAccess() {
-		return pNode;
-	}
-	
-	public ParserRule getNodeRule() {
-		return getNodeAccess().getRule();
 	}
 	
 	//Edge:

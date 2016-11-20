@@ -212,9 +212,9 @@ ruleStateSystem returns [EObject current=null]
 								(
 									(
 										{
-											newCompositeNode(grammarAccess.getStateSystemAccess().getNodesNodeParserRuleCall_0_7_2_0());
+											newCompositeNode(grammarAccess.getStateSystemAccess().getNodesStateParserRuleCall_0_7_2_0());
 										}
-										lv_nodes_16_0=ruleNode
+										lv_nodes_16_0=ruleState
 										{
 											if ($current==null) {
 												$current = createModelElementForParent(grammarAccess.getStateSystemRule());
@@ -223,7 +223,7 @@ ruleStateSystem returns [EObject current=null]
 												$current,
 												"nodes",
 												lv_nodes_16_0,
-												"at.ac.tuwien.big.statesml.StateSystem.Node");
+												"at.ac.tuwien.big.statesml.StateSystem.State");
 											afterParserOrEnumRuleCall();
 										}
 									)
@@ -255,9 +255,9 @@ ruleStateSystem returns [EObject current=null]
 							(
 								(
 									{
-										newCompositeNode(grammarAccess.getStateSystemAccess().getNodesNodeParserRuleCall_1_2_0());
+										newCompositeNode(grammarAccess.getStateSystemAccess().getNodesTransitionParserRuleCall_1_2_0());
 									}
-									lv_nodes_20_0=ruleNode
+									lv_nodes_20_0=ruleTransition
 									{
 										if ($current==null) {
 											$current = createModelElementForParent(grammarAccess.getStateSystemRule());
@@ -266,7 +266,7 @@ ruleStateSystem returns [EObject current=null]
 											$current,
 											"nodes",
 											lv_nodes_20_0,
-											"at.ac.tuwien.big.statesml.StateSystem.Node");
+											"at.ac.tuwien.big.statesml.StateSystem.Transition");
 										afterParserOrEnumRuleCall();
 									}
 								)
@@ -351,7 +351,7 @@ ruleStateSystem returns [EObject current=null]
 								{
 									newLeafNode(otherlv_29, grammarAccess.getStateSystemAccess().getRightCurlyBracketKeyword_2_1_3());
 								}
-							)?
+							)
 							otherlv_30='}'
 							{
 								newLeafNode(otherlv_30, grammarAccess.getStateSystemAccess().getRightCurlyBracketKeyword_2_2());
@@ -369,48 +369,6 @@ ruleStateSystem returns [EObject current=null]
 			{ 
 			  getUnorderedGroupHelper().leave(grammarAccess.getStateSystemAccess().getUnorderedGroup());
 			}
-	)
-;
-
-// Entry rule entryRuleNode
-entryRuleNode returns [EObject current=null]:
-	{ newCompositeNode(grammarAccess.getNodeRule()); }
-	iv_ruleNode=ruleNode
-	{ $current=$iv_ruleNode.current; }
-	EOF;
-
-// Rule Node
-ruleNode returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
-	(
-		(
-			otherlv_0='s'
-			{
-				newLeafNode(otherlv_0, grammarAccess.getNodeAccess().getSKeyword_0_0());
-			}
-			{
-				newCompositeNode(grammarAccess.getNodeAccess().getStateParserRuleCall_0_1());
-			}
-			this_State_1=ruleState
-			{
-				$current = $this_State_1.current;
-				afterParserOrEnumRuleCall();
-			}
-		)
-		    |
-		{
-			newCompositeNode(grammarAccess.getNodeAccess().getTransitionParserRuleCall_1());
-		}
-		this_Transition_2=ruleTransition
-		{
-			$current = $this_Transition_2.current;
-			afterParserOrEnumRuleCall();
-		}
 	)
 ;
 
